@@ -1,0 +1,28 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Browser test output and local scratch files
+test-results/
+playwright-report/
+tmp/
+verification/
+
+# Game-local coordination and prior execution reports
+.sideline/
+Plumbing SLC/Reports/
+
+# Local copies/cache directories
+_/
+.DS_Store
+Thumbs.db
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated local PDF.js browser distribution (npm run build)
+assets/pdfjs/

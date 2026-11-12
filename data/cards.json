@@ -1,0 +1,1607 @@
+{
+  "schemaVersion": 1,
+  "version": "decks-v1",
+  "decks": [
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "Ask & It Is Given"
+    },
+    {
+      "id": "r1",
+      "title": "Vortex Cards R1"
+    }
+  ],
+  "cards": [
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-ed8a89febc87b55e85a5689c10ca6be5ea4a8abd5c1184d11dd7726e363c3dd2",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "100",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "ed8a89febc87b55e85a5689c10ca6be5ea4a8abd5c1184d11dd7726e363c3dd2",
+      "sourceFiles": [
+        "100.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-ed8a89febc87b55e85a5689c10ca6be5ea4a8abd5c1184d11dd7726e363c3dd2-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-ed8a89febc87b55e85a5689c10ca6be5ea4a8abd5c1184d11dd7726e363c3dd2-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-d3987dd71da5b8b15c4647097015cef0162a103d1acc4dc3768b4c4b34cd571f",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "101",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "d3987dd71da5b8b15c4647097015cef0162a103d1acc4dc3768b4c4b34cd571f",
+      "sourceFiles": [
+        "101.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-d3987dd71da5b8b15c4647097015cef0162a103d1acc4dc3768b4c4b34cd571f-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-d3987dd71da5b8b15c4647097015cef0162a103d1acc4dc3768b4c4b34cd571f-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-910c3e799ba062ad784755e7255d4c72ea1ea50b6bc11465877d45e6a2ae1418",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "102",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "910c3e799ba062ad784755e7255d4c72ea1ea50b6bc11465877d45e6a2ae1418",
+      "sourceFiles": [
+        "102.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-910c3e799ba062ad784755e7255d4c72ea1ea50b6bc11465877d45e6a2ae1418-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-910c3e799ba062ad784755e7255d4c72ea1ea50b6bc11465877d45e6a2ae1418-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-52fd567a637e5353c65875ca3a2e97d32099dfa5e40d88ad10ff4354c6db66b2",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "103",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "52fd567a637e5353c65875ca3a2e97d32099dfa5e40d88ad10ff4354c6db66b2",
+      "sourceFiles": [
+        "103.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-52fd567a637e5353c65875ca3a2e97d32099dfa5e40d88ad10ff4354c6db66b2-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-52fd567a637e5353c65875ca3a2e97d32099dfa5e40d88ad10ff4354c6db66b2-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-7d0ad1cae7fbae97e6c48ea05e1d6ab4736af68ca38cfee91286e944c89ccbbc",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "104",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "7d0ad1cae7fbae97e6c48ea05e1d6ab4736af68ca38cfee91286e944c89ccbbc",
+      "sourceFiles": [
+        "104.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-7d0ad1cae7fbae97e6c48ea05e1d6ab4736af68ca38cfee91286e944c89ccbbc-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-7d0ad1cae7fbae97e6c48ea05e1d6ab4736af68ca38cfee91286e944c89ccbbc-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-f6bc521c44717a75fc7376f77e99193d08c7e2e798b1ff4357393485e57bdc1f",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "105",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "f6bc521c44717a75fc7376f77e99193d08c7e2e798b1ff4357393485e57bdc1f",
+      "sourceFiles": [
+        "105.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-f6bc521c44717a75fc7376f77e99193d08c7e2e798b1ff4357393485e57bdc1f-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-f6bc521c44717a75fc7376f77e99193d08c7e2e798b1ff4357393485e57bdc1f-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-7ee0ea9f512828f66dcd04640d55a8830c1b487c3d4f4f48092e141dae80fa0a",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "106",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "7ee0ea9f512828f66dcd04640d55a8830c1b487c3d4f4f48092e141dae80fa0a",
+      "sourceFiles": [
+        "106.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-7ee0ea9f512828f66dcd04640d55a8830c1b487c3d4f4f48092e141dae80fa0a-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-7ee0ea9f512828f66dcd04640d55a8830c1b487c3d4f4f48092e141dae80fa0a-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-54f2d3eee1e9b82cfbc7a7743702014c3227c45831fac53751dd1cb26d53bce2",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "107",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "54f2d3eee1e9b82cfbc7a7743702014c3227c45831fac53751dd1cb26d53bce2",
+      "sourceFiles": [
+        "107.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-54f2d3eee1e9b82cfbc7a7743702014c3227c45831fac53751dd1cb26d53bce2-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-54f2d3eee1e9b82cfbc7a7743702014c3227c45831fac53751dd1cb26d53bce2-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-b9c0bcd1b43a8eac7ef2416bde63ae194ae207012fc8f1feb3e0778af78804e2",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "108",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "b9c0bcd1b43a8eac7ef2416bde63ae194ae207012fc8f1feb3e0778af78804e2",
+      "sourceFiles": [
+        "108.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-b9c0bcd1b43a8eac7ef2416bde63ae194ae207012fc8f1feb3e0778af78804e2-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-b9c0bcd1b43a8eac7ef2416bde63ae194ae207012fc8f1feb3e0778af78804e2-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-f3392f99c35cdcda512114dccd80d4913aa9e4d10c15690143a3b396052e5891",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "109",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "f3392f99c35cdcda512114dccd80d4913aa9e4d10c15690143a3b396052e5891",
+      "sourceFiles": [
+        "109.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-f3392f99c35cdcda512114dccd80d4913aa9e4d10c15690143a3b396052e5891-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-f3392f99c35cdcda512114dccd80d4913aa9e4d10c15690143a3b396052e5891-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-a91c392dae62ba8b72a400d6525f5da809af5467f8d0d9ffa168a26eebec13a0",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "110",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "a91c392dae62ba8b72a400d6525f5da809af5467f8d0d9ffa168a26eebec13a0",
+      "sourceFiles": [
+        "110.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-a91c392dae62ba8b72a400d6525f5da809af5467f8d0d9ffa168a26eebec13a0-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-a91c392dae62ba8b72a400d6525f5da809af5467f8d0d9ffa168a26eebec13a0-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-ef8549508e7fc930ff8219c64f106fe8740026fa98164d9efd6d7a0208816310",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "111",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "ef8549508e7fc930ff8219c64f106fe8740026fa98164d9efd6d7a0208816310",
+      "sourceFiles": [
+        "111.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-ef8549508e7fc930ff8219c64f106fe8740026fa98164d9efd6d7a0208816310-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-ef8549508e7fc930ff8219c64f106fe8740026fa98164d9efd6d7a0208816310-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-6dbd0c94dc9c60183308f1de7fa5e421879d51c8b3bc2bdec768262609819f6a",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "112",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "6dbd0c94dc9c60183308f1de7fa5e421879d51c8b3bc2bdec768262609819f6a",
+      "sourceFiles": [
+        "112.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-6dbd0c94dc9c60183308f1de7fa5e421879d51c8b3bc2bdec768262609819f6a-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-6dbd0c94dc9c60183308f1de7fa5e421879d51c8b3bc2bdec768262609819f6a-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-71c2c7ef72e59194895b51b223a7d26a35d5fe94380dd839ab3dd600af7a2dc8",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "113",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "71c2c7ef72e59194895b51b223a7d26a35d5fe94380dd839ab3dd600af7a2dc8",
+      "sourceFiles": [
+        "113.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-71c2c7ef72e59194895b51b223a7d26a35d5fe94380dd839ab3dd600af7a2dc8-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-71c2c7ef72e59194895b51b223a7d26a35d5fe94380dd839ab3dd600af7a2dc8-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-459e1ac0d42df61edeaafaf78c4005318c9608f131ec300ad1ba07e169c47207",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "114",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "459e1ac0d42df61edeaafaf78c4005318c9608f131ec300ad1ba07e169c47207",
+      "sourceFiles": [
+        "114.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-459e1ac0d42df61edeaafaf78c4005318c9608f131ec300ad1ba07e169c47207-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-459e1ac0d42df61edeaafaf78c4005318c9608f131ec300ad1ba07e169c47207-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-3d1548082df85eea449d9b322cd789bdec3f2404d689a1654d46b48665a2390e",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "115",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "3d1548082df85eea449d9b322cd789bdec3f2404d689a1654d46b48665a2390e",
+      "sourceFiles": [
+        "115.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-3d1548082df85eea449d9b322cd789bdec3f2404d689a1654d46b48665a2390e-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-3d1548082df85eea449d9b322cd789bdec3f2404d689a1654d46b48665a2390e-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-01cde730c3c4ac91aa685f7c263174a5b0e1c1428fbe3a1f15815774312382cd",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "116",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "01cde730c3c4ac91aa685f7c263174a5b0e1c1428fbe3a1f15815774312382cd",
+      "sourceFiles": [
+        "116.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-01cde730c3c4ac91aa685f7c263174a5b0e1c1428fbe3a1f15815774312382cd-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-01cde730c3c4ac91aa685f7c263174a5b0e1c1428fbe3a1f15815774312382cd-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-56e757d53920f73238f691b71d2ad161f6500605df7ce96be6528fe46ad6509b",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "117",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "56e757d53920f73238f691b71d2ad161f6500605df7ce96be6528fe46ad6509b",
+      "sourceFiles": [
+        "117.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-56e757d53920f73238f691b71d2ad161f6500605df7ce96be6528fe46ad6509b-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-56e757d53920f73238f691b71d2ad161f6500605df7ce96be6528fe46ad6509b-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-5f6172e2bbb34bf5bfed300553cf267a51a1586a2ee0fae96aad8c8df12a71ef",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "118",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "5f6172e2bbb34bf5bfed300553cf267a51a1586a2ee0fae96aad8c8df12a71ef",
+      "sourceFiles": [
+        "118.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-5f6172e2bbb34bf5bfed300553cf267a51a1586a2ee0fae96aad8c8df12a71ef-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-5f6172e2bbb34bf5bfed300553cf267a51a1586a2ee0fae96aad8c8df12a71ef-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-bfd50aa44e80fa2c9d5bfde3e68b867fd5c67e326244790af5061ee65b30356c",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "62",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "bfd50aa44e80fa2c9d5bfde3e68b867fd5c67e326244790af5061ee65b30356c",
+      "sourceFiles": [
+        "62.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-bfd50aa44e80fa2c9d5bfde3e68b867fd5c67e326244790af5061ee65b30356c-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-bfd50aa44e80fa2c9d5bfde3e68b867fd5c67e326244790af5061ee65b30356c-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-caa5f3e2c64f6d90ea1504a1819df040d4614dec7ae91449a74516f50e0e2113",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "63",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "caa5f3e2c64f6d90ea1504a1819df040d4614dec7ae91449a74516f50e0e2113",
+      "sourceFiles": [
+        "63.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-caa5f3e2c64f6d90ea1504a1819df040d4614dec7ae91449a74516f50e0e2113-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-caa5f3e2c64f6d90ea1504a1819df040d4614dec7ae91449a74516f50e0e2113-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-bc3085d907c7f204695ec253ad548ed82e41367997e59f86b45a8fa3e5cfc3b3",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "64",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "bc3085d907c7f204695ec253ad548ed82e41367997e59f86b45a8fa3e5cfc3b3",
+      "sourceFiles": [
+        "64.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-bc3085d907c7f204695ec253ad548ed82e41367997e59f86b45a8fa3e5cfc3b3-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-bc3085d907c7f204695ec253ad548ed82e41367997e59f86b45a8fa3e5cfc3b3-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-50303ea7d641a1620fe961aea3add965e7732f04fbbcc4bcacc14118bb28c02a",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "65",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "50303ea7d641a1620fe961aea3add965e7732f04fbbcc4bcacc14118bb28c02a",
+      "sourceFiles": [
+        "65.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-50303ea7d641a1620fe961aea3add965e7732f04fbbcc4bcacc14118bb28c02a-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-50303ea7d641a1620fe961aea3add965e7732f04fbbcc4bcacc14118bb28c02a-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-add0260e1d9bbb3c33d5dce99cbf503b4495aa500a7901342c4c8c3411816276",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "66",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "add0260e1d9bbb3c33d5dce99cbf503b4495aa500a7901342c4c8c3411816276",
+      "sourceFiles": [
+        "66.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-add0260e1d9bbb3c33d5dce99cbf503b4495aa500a7901342c4c8c3411816276-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-add0260e1d9bbb3c33d5dce99cbf503b4495aa500a7901342c4c8c3411816276-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-78bab9c1aa4d9eabb32284edd67176dbe6a206d4e895cf9f56107f5a9680221d",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "67",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "78bab9c1aa4d9eabb32284edd67176dbe6a206d4e895cf9f56107f5a9680221d",
+      "sourceFiles": [
+        "67.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-78bab9c1aa4d9eabb32284edd67176dbe6a206d4e895cf9f56107f5a9680221d-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-78bab9c1aa4d9eabb32284edd67176dbe6a206d4e895cf9f56107f5a9680221d-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-9eec53ff94b7aaafb000eb6a88e86bda00633d79cb369d05fb943b47f86f653f",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "68",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "9eec53ff94b7aaafb000eb6a88e86bda00633d79cb369d05fb943b47f86f653f",
+      "sourceFiles": [
+        "68.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-9eec53ff94b7aaafb000eb6a88e86bda00633d79cb369d05fb943b47f86f653f-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-9eec53ff94b7aaafb000eb6a88e86bda00633d79cb369d05fb943b47f86f653f-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-7d3260a685db17f14f3fbd77ffa4cb095b8e4985459714bc91e88425df41ed7e",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "69",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "7d3260a685db17f14f3fbd77ffa4cb095b8e4985459714bc91e88425df41ed7e",
+      "sourceFiles": [
+        "69.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-7d3260a685db17f14f3fbd77ffa4cb095b8e4985459714bc91e88425df41ed7e-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-7d3260a685db17f14f3fbd77ffa4cb095b8e4985459714bc91e88425df41ed7e-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-e98dee7992ab1e50484c783f201744368051f18a560d6dec14198b1fac6e1d94",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "70",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "e98dee7992ab1e50484c783f201744368051f18a560d6dec14198b1fac6e1d94",
+      "sourceFiles": [
+        "70.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-e98dee7992ab1e50484c783f201744368051f18a560d6dec14198b1fac6e1d94-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-e98dee7992ab1e50484c783f201744368051f18a560d6dec14198b1fac6e1d94-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-dbf10062db63fe0f4dd25156f109fc915cb8048afb9da5981fb7c638ea906d6d",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "71",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "dbf10062db63fe0f4dd25156f109fc915cb8048afb9da5981fb7c638ea906d6d",
+      "sourceFiles": [
+        "71.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-dbf10062db63fe0f4dd25156f109fc915cb8048afb9da5981fb7c638ea906d6d-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-dbf10062db63fe0f4dd25156f109fc915cb8048afb9da5981fb7c638ea906d6d-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-0366dc501e75905297ed0675e47f7d0351074e89e38f164de5e008cf87060d96",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "72",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "0366dc501e75905297ed0675e47f7d0351074e89e38f164de5e008cf87060d96",
+      "sourceFiles": [
+        "72.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-0366dc501e75905297ed0675e47f7d0351074e89e38f164de5e008cf87060d96-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-0366dc501e75905297ed0675e47f7d0351074e89e38f164de5e008cf87060d96-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-385197a293ec4c3dab6aa7054d8b23570735c9434bc470d0e50cc6d0d0499203",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "73",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "385197a293ec4c3dab6aa7054d8b23570735c9434bc470d0e50cc6d0d0499203",
+      "sourceFiles": [
+        "73.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-385197a293ec4c3dab6aa7054d8b23570735c9434bc470d0e50cc6d0d0499203-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-385197a293ec4c3dab6aa7054d8b23570735c9434bc470d0e50cc6d0d0499203-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-856d627fcf43d4ad255740e0dca6a12c45d60ef299ec5632837201d7ea6f7c0a",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "74",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "856d627fcf43d4ad255740e0dca6a12c45d60ef299ec5632837201d7ea6f7c0a",
+      "sourceFiles": [
+        "74.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-856d627fcf43d4ad255740e0dca6a12c45d60ef299ec5632837201d7ea6f7c0a-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-856d627fcf43d4ad255740e0dca6a12c45d60ef299ec5632837201d7ea6f7c0a-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-db5511e876c742a50709c0a7ecb3ba46a223976e919925c6377b4fd1276c7268",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "75",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "db5511e876c742a50709c0a7ecb3ba46a223976e919925c6377b4fd1276c7268",
+      "sourceFiles": [
+        "75.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-db5511e876c742a50709c0a7ecb3ba46a223976e919925c6377b4fd1276c7268-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-db5511e876c742a50709c0a7ecb3ba46a223976e919925c6377b4fd1276c7268-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-ce7a3bb9ff3db6136fc4f65fe98b44d7c95da67d3613c9ede0c70becdc0fffcd",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "76",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "ce7a3bb9ff3db6136fc4f65fe98b44d7c95da67d3613c9ede0c70becdc0fffcd",
+      "sourceFiles": [
+        "76.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-ce7a3bb9ff3db6136fc4f65fe98b44d7c95da67d3613c9ede0c70becdc0fffcd-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-ce7a3bb9ff3db6136fc4f65fe98b44d7c95da67d3613c9ede0c70becdc0fffcd-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-3972d5eddf10feb67336b63147c5e5948e94afa68349cc0e74da95c26f45deca",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "77",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "3972d5eddf10feb67336b63147c5e5948e94afa68349cc0e74da95c26f45deca",
+      "sourceFiles": [
+        "77.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-3972d5eddf10feb67336b63147c5e5948e94afa68349cc0e74da95c26f45deca-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-3972d5eddf10feb67336b63147c5e5948e94afa68349cc0e74da95c26f45deca-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-dbff91d172580fafec979f9dbcd7fdc0002979a683e9e965e8013db47c231c26",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "78",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "dbff91d172580fafec979f9dbcd7fdc0002979a683e9e965e8013db47c231c26",
+      "sourceFiles": [
+        "78.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-dbff91d172580fafec979f9dbcd7fdc0002979a683e9e965e8013db47c231c26-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-dbff91d172580fafec979f9dbcd7fdc0002979a683e9e965e8013db47c231c26-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-b82e7fc408f0921ae61e379f38ee07dca915b2b99c2f5a1c59cfb4ffcb608b25",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "79",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "b82e7fc408f0921ae61e379f38ee07dca915b2b99c2f5a1c59cfb4ffcb608b25",
+      "sourceFiles": [
+        "79.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-b82e7fc408f0921ae61e379f38ee07dca915b2b99c2f5a1c59cfb4ffcb608b25-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-b82e7fc408f0921ae61e379f38ee07dca915b2b99c2f5a1c59cfb4ffcb608b25-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-9784d821a31c0553092d79c8b1261a55589737e9429aef97456111dfe00bca34",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "80",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "9784d821a31c0553092d79c8b1261a55589737e9429aef97456111dfe00bca34",
+      "sourceFiles": [
+        "80.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-9784d821a31c0553092d79c8b1261a55589737e9429aef97456111dfe00bca34-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-9784d821a31c0553092d79c8b1261a55589737e9429aef97456111dfe00bca34-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-ef4b0f889ebb78be51514e1d4b08b69dba27822fe08313a58e7412327c02987b",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "81",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "ef4b0f889ebb78be51514e1d4b08b69dba27822fe08313a58e7412327c02987b",
+      "sourceFiles": [
+        "81.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-ef4b0f889ebb78be51514e1d4b08b69dba27822fe08313a58e7412327c02987b-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-ef4b0f889ebb78be51514e1d4b08b69dba27822fe08313a58e7412327c02987b-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-499ff8b660574520cf96c9f66542718338156b455dfde68624c5c23cf2d41aa4",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "82",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "499ff8b660574520cf96c9f66542718338156b455dfde68624c5c23cf2d41aa4",
+      "sourceFiles": [
+        "82.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-499ff8b660574520cf96c9f66542718338156b455dfde68624c5c23cf2d41aa4-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-499ff8b660574520cf96c9f66542718338156b455dfde68624c5c23cf2d41aa4-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-e8ac01b2cb7e0b1cbc3aba752de8dde8db52a16e4c7ad082e50dd8386487f586",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "83",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "e8ac01b2cb7e0b1cbc3aba752de8dde8db52a16e4c7ad082e50dd8386487f586",
+      "sourceFiles": [
+        "83.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-e8ac01b2cb7e0b1cbc3aba752de8dde8db52a16e4c7ad082e50dd8386487f586-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-e8ac01b2cb7e0b1cbc3aba752de8dde8db52a16e4c7ad082e50dd8386487f586-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-d31b9d2d9e91f2f160995f14a8e8d54d001850fabbe178fd94696677cf52e769",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "84",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "d31b9d2d9e91f2f160995f14a8e8d54d001850fabbe178fd94696677cf52e769",
+      "sourceFiles": [
+        "84.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-d31b9d2d9e91f2f160995f14a8e8d54d001850fabbe178fd94696677cf52e769-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-d31b9d2d9e91f2f160995f14a8e8d54d001850fabbe178fd94696677cf52e769-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-65a731c6b6bae3f86d11299f3538c70a15b448bfbf075461ce53e30cdc40773a",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "85",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "65a731c6b6bae3f86d11299f3538c70a15b448bfbf075461ce53e30cdc40773a",
+      "sourceFiles": [
+        "85.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-65a731c6b6bae3f86d11299f3538c70a15b448bfbf075461ce53e30cdc40773a-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-65a731c6b6bae3f86d11299f3538c70a15b448bfbf075461ce53e30cdc40773a-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-a0413a4197935cdae4133c67f5aac2226f43219636df5c5e6e7cb81205b13a08",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "86",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "a0413a4197935cdae4133c67f5aac2226f43219636df5c5e6e7cb81205b13a08",
+      "sourceFiles": [
+        "86.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-a0413a4197935cdae4133c67f5aac2226f43219636df5c5e6e7cb81205b13a08-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-a0413a4197935cdae4133c67f5aac2226f43219636df5c5e6e7cb81205b13a08-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-5d3d3e863efa258d073887a3bd9f1c4410ad07161938229e9c7ecda4e2422ade",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "87",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "5d3d3e863efa258d073887a3bd9f1c4410ad07161938229e9c7ecda4e2422ade",
+      "sourceFiles": [
+        "87.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-5d3d3e863efa258d073887a3bd9f1c4410ad07161938229e9c7ecda4e2422ade-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-5d3d3e863efa258d073887a3bd9f1c4410ad07161938229e9c7ecda4e2422ade-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-83e93f6f9165c300727d74ca60aeb3cd519df9a4f83758f44f6e646c9f9edfba",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "88",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "83e93f6f9165c300727d74ca60aeb3cd519df9a4f83758f44f6e646c9f9edfba",
+      "sourceFiles": [
+        "88.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-83e93f6f9165c300727d74ca60aeb3cd519df9a4f83758f44f6e646c9f9edfba-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-83e93f6f9165c300727d74ca60aeb3cd519df9a4f83758f44f6e646c9f9edfba-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-51411d6e629d716c134078f77c152b1037d1b7aeca90e5c46ef0fbca7bea587c",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "89",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "51411d6e629d716c134078f77c152b1037d1b7aeca90e5c46ef0fbca7bea587c",
+      "sourceFiles": [
+        "89.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-51411d6e629d716c134078f77c152b1037d1b7aeca90e5c46ef0fbca7bea587c-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-51411d6e629d716c134078f77c152b1037d1b7aeca90e5c46ef0fbca7bea587c-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-8994751a7052a3cc718ef70da443ef31e139632013c5268b6a8419fab1055c1d",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "90",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "8994751a7052a3cc718ef70da443ef31e139632013c5268b6a8419fab1055c1d",
+      "sourceFiles": [
+        "90.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-8994751a7052a3cc718ef70da443ef31e139632013c5268b6a8419fab1055c1d-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-8994751a7052a3cc718ef70da443ef31e139632013c5268b6a8419fab1055c1d-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-6ddd5432296a62a5ff079d13234de7e35da40d400325a4d5028b9777be36dffa",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "91",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "6ddd5432296a62a5ff079d13234de7e35da40d400325a4d5028b9777be36dffa",
+      "sourceFiles": [
+        "91.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-6ddd5432296a62a5ff079d13234de7e35da40d400325a4d5028b9777be36dffa-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-6ddd5432296a62a5ff079d13234de7e35da40d400325a4d5028b9777be36dffa-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-4124571521a1f16aab0a77f6623d9c84b9cd67846bf0d5b8f0bd288aa8793826",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "92",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "4124571521a1f16aab0a77f6623d9c84b9cd67846bf0d5b8f0bd288aa8793826",
+      "sourceFiles": [
+        "92.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-4124571521a1f16aab0a77f6623d9c84b9cd67846bf0d5b8f0bd288aa8793826-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-4124571521a1f16aab0a77f6623d9c84b9cd67846bf0d5b8f0bd288aa8793826-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-a1e59aa70b954672e99c1b69ca26cf1750c091e9b6841327d8acc4a4f8309b85",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "93",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "a1e59aa70b954672e99c1b69ca26cf1750c091e9b6841327d8acc4a4f8309b85",
+      "sourceFiles": [
+        "93.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-a1e59aa70b954672e99c1b69ca26cf1750c091e9b6841327d8acc4a4f8309b85-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-a1e59aa70b954672e99c1b69ca26cf1750c091e9b6841327d8acc4a4f8309b85-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-63ea7f67a5ac4c25ec64942373c43231b2d06d8eca2e94c2e954984868c5b610",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "94",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "63ea7f67a5ac4c25ec64942373c43231b2d06d8eca2e94c2e954984868c5b610",
+      "sourceFiles": [
+        "94.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-63ea7f67a5ac4c25ec64942373c43231b2d06d8eca2e94c2e954984868c5b610-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-63ea7f67a5ac4c25ec64942373c43231b2d06d8eca2e94c2e954984868c5b610-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-ef1edd263e6471e6808d0cbb739f96b0e35386498bc8eab08e6c5b3413218594",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "95",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "ef1edd263e6471e6808d0cbb739f96b0e35386498bc8eab08e6c5b3413218594",
+      "sourceFiles": [
+        "95.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-ef1edd263e6471e6808d0cbb739f96b0e35386498bc8eab08e6c5b3413218594-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-ef1edd263e6471e6808d0cbb739f96b0e35386498bc8eab08e6c5b3413218594-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-472232fbecd1da594b7cf910daa11173c9dad16da913d7aa917b8957970733ec",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "96",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "472232fbecd1da594b7cf910daa11173c9dad16da913d7aa917b8957970733ec",
+      "sourceFiles": [
+        "96.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-472232fbecd1da594b7cf910daa11173c9dad16da913d7aa917b8957970733ec-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-472232fbecd1da594b7cf910daa11173c9dad16da913d7aa917b8957970733ec-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-979a5cf7edd6d3d31bf53436f8db47bf24b4e55eded720c5f510ec8152ea5a0f",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "97",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "979a5cf7edd6d3d31bf53436f8db47bf24b4e55eded720c5f510ec8152ea5a0f",
+      "sourceFiles": [
+        "97.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-979a5cf7edd6d3d31bf53436f8db47bf24b4e55eded720c5f510ec8152ea5a0f-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-979a5cf7edd6d3d31bf53436f8db47bf24b4e55eded720c5f510ec8152ea5a0f-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-2f4c9f72af92b5cc79dcfec19bae06e2e069fd7813945fce2d4fc8e611ac793d",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "98",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "2f4c9f72af92b5cc79dcfec19bae06e2e069fd7813945fce2d4fc8e611ac793d",
+      "sourceFiles": [
+        "98.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-2f4c9f72af92b5cc79dcfec19bae06e2e069fd7813945fce2d4fc8e611ac793d-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-2f4c9f72af92b5cc79dcfec19bae06e2e069fd7813945fce2d4fc8e611ac793d-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-pdf-fea4fffe11c438114c54518451c8b22ce599a9b9a719876482c28bd58dda152d",
+      "kind": "physical",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "title": "99",
+      "collection": "Ask & It Is Given",
+      "sourceType": "pdf",
+      "sourceHash": "fea4fffe11c438114c54518451c8b22ce599a9b9a719876482c28bd58dda152d",
+      "sourceFiles": [
+        "99.pdf"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-fea4fffe11c438114c54518451c8b22ce599a9b9a719876482c28bd58dda152d-1.png",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/pdf-fea4fffe11c438114c54518451c8b22ce599a9b9a719876482c28bd58dda152d-2.png"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-059",
+      "kind": "physical",
+      "title": "Ask & It Is Given · Card 59",
+      "collection": "Ask & It Is Given",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "sourceFiles": [
+        "f59.jpg",
+        "b59.jpg"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/f59.jpg",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/b59.jpg"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-060",
+      "kind": "physical",
+      "title": "Ask & It Is Given · Card 60",
+      "collection": "Ask & It Is Given",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "sourceFiles": [
+        "f60.jpg",
+        "b60.jpg"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/f60.jpg",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/b60.jpg"
+    },
+    {
+      "id": "deck-be044c40-c234-46ba-8e72-dc65839b7c12-061",
+      "kind": "physical",
+      "title": "Ask & It Is Given · Card 61",
+      "collection": "Ask & It Is Given",
+      "deckId": "deck-be044c40-c234-46ba-8e72-dc65839b7c12",
+      "sourceFiles": [
+        "f61.jpg",
+        "b61.jpg"
+      ],
+      "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/f61.jpg",
+      "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/b61.jpg"
+    },
+    {
+      "id": "r1-001",
+      "kind": "physical",
+      "title": "R1 · Card 01",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "F1.jpg",
+        "B1.jpg"
+      ],
+      "front": "assets/cards/r1/f1.jpg",
+      "back": "assets/cards/r1/b1.jpg"
+    },
+    {
+      "id": "r1-002",
+      "kind": "physical",
+      "title": "R1 · Card 02",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f2.jpg",
+        "b2.jpg"
+      ],
+      "front": "assets/cards/r1/f2.jpg",
+      "back": "assets/cards/r1/b2.jpg"
+    },
+    {
+      "id": "r1-003",
+      "kind": "physical",
+      "title": "R1 · Card 03",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f3.jpg",
+        "b3.jpg"
+      ],
+      "front": "assets/cards/r1/f3.jpg",
+      "back": "assets/cards/r1/b3.jpg"
+    },
+    {
+      "id": "r1-004",
+      "kind": "physical",
+      "title": "R1 · Card 04",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f4.jpg",
+        "b4.jpg"
+      ],
+      "front": "assets/cards/r1/f4.jpg",
+      "back": "assets/cards/r1/b4.jpg"
+    },
+    {
+      "id": "r1-005",
+      "kind": "physical",
+      "title": "R1 · Card 05",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f5.jpg",
+        "b5.jpg"
+      ],
+      "front": "assets/cards/r1/f5.jpg",
+      "back": "assets/cards/r1/b5.jpg"
+    },
+    {
+      "id": "r1-006",
+      "kind": "physical",
+      "title": "R1 · Card 06",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f6.jpg",
+        "b6.jpg"
+      ],
+      "front": "assets/cards/r1/f6.jpg",
+      "back": "assets/cards/r1/b6.jpg"
+    },
+    {
+      "id": "r1-007",
+      "kind": "physical",
+      "title": "R1 · Card 07",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f7.jpg",
+        "b7.jpg"
+      ],
+      "front": "assets/cards/r1/f7.jpg",
+      "back": "assets/cards/r1/b7.jpg"
+    },
+    {
+      "id": "r1-008",
+      "kind": "physical",
+      "title": "R1 · Card 08",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f8.jpg",
+        "b8.jpg"
+      ],
+      "front": "assets/cards/r1/f8.jpg",
+      "back": "assets/cards/r1/b8.jpg"
+    },
+    {
+      "id": "r1-009",
+      "kind": "physical",
+      "title": "R1 · Card 09",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f9.jpg",
+        "b9.jpg"
+      ],
+      "front": "assets/cards/r1/f9.jpg",
+      "back": "assets/cards/r1/b9.jpg"
+    },
+    {
+      "id": "r1-010",
+      "kind": "physical",
+      "title": "R1 · Card 10",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f10.jpg",
+        "b10.jpg"
+      ],
+      "front": "assets/cards/r1/f10.jpg",
+      "back": "assets/cards/r1/b10.jpg"
+    },
+    {
+      "id": "r1-011",
+      "kind": "physical",
+      "title": "R1 · Card 11",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f11.jpg",
+        "b11.jpg"
+      ],
+      "front": "assets/cards/r1/f11.jpg",
+      "back": "assets/cards/r1/b11.jpg"
+    },
+    {
+      "id": "r1-012",
+      "kind": "physical",
+      "title": "R1 · Card 12",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f12.jpg",
+        "b12.jpg"
+      ],
+      "front": "assets/cards/r1/f12.jpg",
+      "back": "assets/cards/r1/b12.jpg"
+    },
+    {
+      "id": "r1-013",
+      "kind": "physical",
+      "title": "R1 · Card 13",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f13.jpg",
+        "b13.jpg"
+      ],
+      "front": "assets/cards/r1/f13.jpg",
+      "back": "assets/cards/r1/b13.jpg"
+    },
+    {
+      "id": "r1-014",
+      "kind": "physical",
+      "title": "R1 · Card 14",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f14.jpg",
+        "b14.jpg"
+      ],
+      "front": "assets/cards/r1/f14.jpg",
+      "back": "assets/cards/r1/b14.jpg"
+    },
+    {
+      "id": "r1-015",
+      "kind": "physical",
+      "title": "R1 · Card 15",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f15.jpg",
+        "b15.jpg"
+      ],
+      "front": "assets/cards/r1/f15.jpg",
+      "back": "assets/cards/r1/b15.jpg"
+    },
+    {
+      "id": "r1-016",
+      "kind": "physical",
+      "title": "R1 · Card 16",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f16.jpg",
+        "b16.jpg"
+      ],
+      "front": "assets/cards/r1/f16.jpg",
+      "back": "assets/cards/r1/b16.jpg"
+    },
+    {
+      "id": "r1-017",
+      "kind": "physical",
+      "title": "R1 · Card 17",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f17.jpg",
+        "b17.jpg"
+      ],
+      "front": "assets/cards/r1/f17.jpg",
+      "back": "assets/cards/r1/b17.jpg"
+    },
+    {
+      "id": "r1-018",
+      "kind": "physical",
+      "title": "R1 · Card 18",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f18.jpg",
+        "b18.jpg"
+      ],
+      "front": "assets/cards/r1/f18.jpg",
+      "back": "assets/cards/r1/b18.jpg"
+    },
+    {
+      "id": "r1-019",
+      "kind": "physical",
+      "title": "R1 · Card 19",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f19.jpg",
+        "b19.jpg"
+      ],
+      "front": "assets/cards/r1/f19.jpg",
+      "back": "assets/cards/r1/b19.jpg"
+    },
+    {
+      "id": "r1-020",
+      "kind": "physical",
+      "title": "R1 · Card 20",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f20.jpg",
+        "b20.jpg"
+      ],
+      "front": "assets/cards/r1/f20.jpg",
+      "back": "assets/cards/r1/b20.jpg"
+    },
+    {
+      "id": "r1-021",
+      "kind": "physical",
+      "title": "R1 · Card 21",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f21.jpg",
+        "b21.jpg"
+      ],
+      "front": "assets/cards/r1/f21.jpg",
+      "back": "assets/cards/r1/b21.jpg"
+    },
+    {
+      "id": "r1-022",
+      "kind": "physical",
+      "title": "R1 · Card 22",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f22.jpg",
+        "b22.jpg"
+      ],
+      "front": "assets/cards/r1/f22.jpg",
+      "back": "assets/cards/r1/b22.jpg"
+    },
+    {
+      "id": "r1-023",
+      "kind": "physical",
+      "title": "R1 · Card 23",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f23.jpg",
+        "b23.jpg"
+      ],
+      "front": "assets/cards/r1/f23.jpg",
+      "back": "assets/cards/r1/b23.jpg"
+    },
+    {
+      "id": "r1-024",
+      "kind": "physical",
+      "title": "R1 · Card 24",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f24.jpg",
+        "b24.jpg"
+      ],
+      "front": "assets/cards/r1/f24.jpg",
+      "back": "assets/cards/r1/b24.jpg"
+    },
+    {
+      "id": "r1-025",
+      "kind": "physical",
+      "title": "R1 · Card 25",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f25.jpg",
+        "b25.jpg"
+      ],
+      "front": "assets/cards/r1/f25.jpg",
+      "back": "assets/cards/r1/b25.jpg"
+    },
+    {
+      "id": "r1-026",
+      "kind": "physical",
+      "title": "R1 · Card 26",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f26.jpg",
+        "b26.jpg"
+      ],
+      "front": "assets/cards/r1/f26.jpg",
+      "back": "assets/cards/r1/b26.jpg"
+    },
+    {
+      "id": "r1-027",
+      "kind": "physical",
+      "title": "R1 · Card 27",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f27.jpg",
+        "b27.jpg"
+      ],
+      "front": "assets/cards/r1/f27.jpg",
+      "back": "assets/cards/r1/b27.jpg"
+    },
+    {
+      "id": "r1-028",
+      "kind": "physical",
+      "title": "R1 · Card 28",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f28.jpg",
+        "b28.jpg"
+      ],
+      "front": "assets/cards/r1/f28.jpg",
+      "back": "assets/cards/r1/b28.jpg"
+    },
+    {
+      "id": "r1-029",
+      "kind": "physical",
+      "title": "R1 · Card 29",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f29.jpg",
+        "b29.jpg"
+      ],
+      "front": "assets/cards/r1/f29.jpg",
+      "back": "assets/cards/r1/b29.jpg"
+    },
+    {
+      "id": "r1-030",
+      "kind": "physical",
+      "title": "R1 · Card 30",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f30.jpg",
+        "b30.jpg"
+      ],
+      "front": "assets/cards/r1/f30.jpg",
+      "back": "assets/cards/r1/b30.jpg"
+    },
+    {
+      "id": "r1-031",
+      "kind": "physical",
+      "title": "R1 · Card 31",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f31.jpg",
+        "b31.jpg"
+      ],
+      "front": "assets/cards/r1/f31.jpg",
+      "back": "assets/cards/r1/b31.jpg"
+    },
+    {
+      "id": "r1-032",
+      "kind": "physical",
+      "title": "R1 · Card 32",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f32.jpg",
+        "b32.jpg"
+      ],
+      "front": "assets/cards/r1/f32.jpg",
+      "back": "assets/cards/r1/b32.jpg"
+    },
+    {
+      "id": "r1-033",
+      "kind": "physical",
+      "title": "R1 · Card 33",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f33.jpg",
+        "b33.jpg"
+      ],
+      "front": "assets/cards/r1/f33.jpg",
+      "back": "assets/cards/r1/b33.jpg"
+    },
+    {
+      "id": "r1-034",
+      "kind": "physical",
+      "title": "R1 · Card 34",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f34.jpg",
+        "b34.jpg"
+      ],
+      "front": "assets/cards/r1/f34.jpg",
+      "back": "assets/cards/r1/b34.jpg"
+    },
+    {
+      "id": "r1-035",
+      "kind": "physical",
+      "title": "R1 · Card 35",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f35.jpg",
+        "b35.jpg"
+      ],
+      "front": "assets/cards/r1/f35.jpg",
+      "back": "assets/cards/r1/b35.jpg"
+    },
+    {
+      "id": "r1-036",
+      "kind": "physical",
+      "title": "R1 · Card 36",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f36.jpg",
+        "b36.jpg"
+      ],
+      "front": "assets/cards/r1/f36.jpg",
+      "back": "assets/cards/r1/b36.jpg"
+    },
+    {
+      "id": "r1-037",
+      "kind": "physical",
+      "title": "R1 · Card 37",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "F37.jpg",
+        "b37.jpg"
+      ],
+      "front": "assets/cards/r1/f37.jpg",
+      "back": "assets/cards/r1/b37.jpg"
+    },
+    {
+      "id": "r1-038",
+      "kind": "physical",
+      "title": "R1 · Card 38",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f38.jpg",
+        "B38.jpg"
+      ],
+      "front": "assets/cards/r1/f38.jpg",
+      "back": "assets/cards/r1/b38.jpg"
+    },
+    {
+      "id": "r1-039",
+      "kind": "physical",
+      "title": "R1 · Card 39",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f39.jpg",
+        "b39.jpg"
+      ],
+      "front": "assets/cards/r1/f39.jpg",
+      "back": "assets/cards/r1/b39.jpg"
+    },
+    {
+      "id": "r1-040",
+      "kind": "physical",
+      "title": "R1 · Card 40",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f40.jpg",
+        "b40.jpg"
+      ],
+      "front": "assets/cards/r1/f40.jpg",
+      "back": "assets/cards/r1/b40.jpg"
+    },
+    {
+      "id": "r1-041",
+      "kind": "physical",
+      "title": "R1 · Card 41",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f41.jpg",
+        "b41.jpg"
+      ],
+      "front": "assets/cards/r1/f41.jpg",
+      "back": "assets/cards/r1/b41.jpg"
+    },
+    {
+      "id": "r1-042",
+      "kind": "physical",
+      "title": "R1 · Card 42",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f42.jpg",
+        "b42.jpg"
+      ],
+      "front": "assets/cards/r1/f42.jpg",
+      "back": "assets/cards/r1/b42.jpg"
+    },
+    {
+      "id": "r1-043",
+      "kind": "physical",
+      "title": "R1 · Card 43",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f43.jpg",
+        "b43.jpg"
+      ],
+      "front": "assets/cards/r1/f43.jpg",
+      "back": "assets/cards/r1/b43.jpg"
+    },
+    {
+      "id": "r1-044",
+      "kind": "physical",
+      "title": "R1 · Card 44",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f44.jpg",
+        "b44.jpg"
+      ],
+      "front": "assets/cards/r1/f44.jpg",
+      "back": "assets/cards/r1/b44.jpg"
+    },
+    {
+      "id": "r1-045",
+      "kind": "physical",
+      "title": "R1 · Card 45",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f45.jpg",
+        "b45.jpg"
+      ],
+      "front": "assets/cards/r1/f45.jpg",
+      "back": "assets/cards/r1/b45.jpg"
+    },
+    {
+      "id": "r1-046",
+      "kind": "physical",
+      "title": "R1 · Card 46",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f46.jpg",
+        "b46.jpg"
+      ],
+      "front": "assets/cards/r1/f46.jpg",
+      "back": "assets/cards/r1/b46.jpg"
+    },
+    {
+      "id": "r1-047",
+      "kind": "physical",
+      "title": "R1 · Card 47",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f47.jpg",
+        "b47.jpg"
+      ],
+      "front": "assets/cards/r1/f47.jpg",
+      "back": "assets/cards/r1/b47.jpg"
+    },
+    {
+      "id": "r1-048",
+      "kind": "physical",
+      "title": "R1 · Card 48",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f48.jpg",
+        "b48.jpg"
+      ],
+      "front": "assets/cards/r1/f48.jpg",
+      "back": "assets/cards/r1/b48.jpg"
+    },
+    {
+      "id": "r1-049",
+      "kind": "physical",
+      "title": "R1 · Card 49",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f49.jpg",
+        "b49.jpg"
+      ],
+      "front": "assets/cards/r1/f49.jpg",
+      "back": "assets/cards/r1/b49.jpg"
+    },
+    {
+      "id": "r1-050",
+      "kind": "physical",
+      "title": "R1 · Card 50",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f50.jpg",
+        "b50.jpg"
+      ],
+      "front": "assets/cards/r1/f50.jpg",
+      "back": "assets/cards/r1/b50.jpg"
+    },
+    {
+      "id": "r1-051",
+      "kind": "physical",
+      "title": "R1 · Card 51",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f51.jpg",
+        "b51.jpg"
+      ],
+      "front": "assets/cards/r1/f51.jpg",
+      "back": "assets/cards/r1/b51.jpg"
+    },
+    {
+      "id": "r1-052",
+      "kind": "physical",
+      "title": "R1 · Card 52",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f52.jpg",
+        "b52.jpg"
+      ],
+      "front": "assets/cards/r1/f52.jpg",
+      "back": "assets/cards/r1/b52.jpg"
+    },
+    {
+      "id": "r1-053",
+      "kind": "physical",
+      "title": "R1 · Card 53",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f53.jpg",
+        "b53.jpg"
+      ],
+      "front": "assets/cards/r1/f53.jpg",
+      "back": "assets/cards/r1/b53.jpg"
+    },
+    {
+      "id": "r1-054",
+      "kind": "physical",
+      "title": "R1 · Card 54",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f54.jpg",
+        "b54.jpg"
+      ],
+      "front": "assets/cards/r1/f54.jpg",
+      "back": "assets/cards/r1/b54.jpg"
+    },
+    {
+      "id": "r1-055",
+      "kind": "physical",
+      "title": "R1 · Card 55",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f55.jpg",
+        "b55.jpg"
+      ],
+      "front": "assets/cards/r1/f55.jpg",
+      "back": "assets/cards/r1/b55.jpg"
+    },
+    {
+      "id": "r1-056",
+      "kind": "physical",
+      "title": "R1 · Card 56",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f56.jpg",
+        "b56.jpg"
+      ],
+      "front": "assets/cards/r1/f56.jpg",
+      "back": "assets/cards/r1/b56.jpg"
+    },
+    {
+      "id": "r1-057",
+      "kind": "physical",
+      "title": "R1 · Card 57",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f57.jpg",
+        "b57.jpg"
+      ],
+      "front": "assets/cards/r1/f57.jpg",
+      "back": "assets/cards/r1/b57.jpg"
+    },
+    {
+      "id": "r1-058",
+      "kind": "physical",
+      "title": "R1 · Card 58",
+      "collection": "Vortex Cards R1",
+      "deckId": "r1",
+      "sourceFiles": [
+        "f58.jpg",
+        "b58.jpg"
+      ],
+      "front": "assets/cards/r1/f58.jpg",
+      "back": "assets/cards/r1/b58.jpg"
+    }
+  ]
+}

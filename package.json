@@ -1,0 +1,23 @@
+{
+  "name": "into-the-vortex",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs",
+    "import:r1": "node tools/index-decks.mjs",
+    "migrate:r1": "node tools/migrate-r1.mjs",
+    "index:decks": "node tools/index-decks.mjs",
+    "rename:deck": "node tools/rename-deck.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "pretest:browser": "node tools/build.mjs",
+    "test:browser": "playwright test",
+    "build": "node tools/build.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  },
+  "dependencies": {
+    "pdfjs-dist": "5.4.624"
+  }
+}
