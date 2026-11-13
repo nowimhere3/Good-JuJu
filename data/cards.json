@@ -7,6 +7,10 @@
       "title": "Ask & It Is Given"
     },
     {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Money & the Law Of Attraction"
+    },
+    {
       "id": "r1",
       "title": "Vortex Cards R1"
     }
@@ -848,6 +852,846 @@
       ],
       "front": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/f61.jpg",
       "back": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/b61.jpg"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-c8ed5b2f177192d2933c3572a7aae0687596f1ddade0f47d990c59292c6b0933",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2020",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "c8ed5b2f177192d2933c3572a7aae0687596f1ddade0f47d990c59292c6b0933",
+      "sourceFiles": [
+        "Scanned_20261112-2020.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c8ed5b2f177192d2933c3572a7aae0687596f1ddade0f47d990c59292c6b0933-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c8ed5b2f177192d2933c3572a7aae0687596f1ddade0f47d990c59292c6b0933-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-3f1ae5ba0aaeffa714c4a970c2b9753f62d196732a97f8a290f2ae53dc2e85a9",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2021",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "3f1ae5ba0aaeffa714c4a970c2b9753f62d196732a97f8a290f2ae53dc2e85a9",
+      "sourceFiles": [
+        "Scanned_20261112-2021.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-3f1ae5ba0aaeffa714c4a970c2b9753f62d196732a97f8a290f2ae53dc2e85a9-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-3f1ae5ba0aaeffa714c4a970c2b9753f62d196732a97f8a290f2ae53dc2e85a9-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-792cce8056b4f83043117f14bc729dc61e1f1b015208b600b41f338a399a9759",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2023",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "792cce8056b4f83043117f14bc729dc61e1f1b015208b600b41f338a399a9759",
+      "sourceFiles": [
+        "Scanned_20261112-2023.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-792cce8056b4f83043117f14bc729dc61e1f1b015208b600b41f338a399a9759-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-792cce8056b4f83043117f14bc729dc61e1f1b015208b600b41f338a399a9759-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-077ffce6558320a9ab92f3627603fc9a5f21618d59abafe6b76e897541f94acf",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2024",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "077ffce6558320a9ab92f3627603fc9a5f21618d59abafe6b76e897541f94acf",
+      "sourceFiles": [
+        "Scanned_20261112-2024.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-077ffce6558320a9ab92f3627603fc9a5f21618d59abafe6b76e897541f94acf-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-077ffce6558320a9ab92f3627603fc9a5f21618d59abafe6b76e897541f94acf-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-596e16264edfcea8ddeb68b58a3d50dc0cfe47f564c9625cfbd057643441504a",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2025",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "596e16264edfcea8ddeb68b58a3d50dc0cfe47f564c9625cfbd057643441504a",
+      "sourceFiles": [
+        "Scanned_20261112-2025.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-596e16264edfcea8ddeb68b58a3d50dc0cfe47f564c9625cfbd057643441504a-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-596e16264edfcea8ddeb68b58a3d50dc0cfe47f564c9625cfbd057643441504a-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-efe9e9c19c298b2f8e090a5ede7e6ac0a82ff0de6261e99bc925f1365b91d70b",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2026",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "efe9e9c19c298b2f8e090a5ede7e6ac0a82ff0de6261e99bc925f1365b91d70b",
+      "sourceFiles": [
+        "Scanned_20261112-2026.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-efe9e9c19c298b2f8e090a5ede7e6ac0a82ff0de6261e99bc925f1365b91d70b-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-efe9e9c19c298b2f8e090a5ede7e6ac0a82ff0de6261e99bc925f1365b91d70b-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-252702e45a9cda496d05873e7b32783fd9b9498133281fb67f5c619377dfce1e",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2027",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "252702e45a9cda496d05873e7b32783fd9b9498133281fb67f5c619377dfce1e",
+      "sourceFiles": [
+        "Scanned_20261112-2027.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-252702e45a9cda496d05873e7b32783fd9b9498133281fb67f5c619377dfce1e-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-252702e45a9cda496d05873e7b32783fd9b9498133281fb67f5c619377dfce1e-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-748b148411ad0ee6a388f6694948afe5390bf48b470ab28e751b329fd0976f29",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2028",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "748b148411ad0ee6a388f6694948afe5390bf48b470ab28e751b329fd0976f29",
+      "sourceFiles": [
+        "Scanned_20261112-2028.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-748b148411ad0ee6a388f6694948afe5390bf48b470ab28e751b329fd0976f29-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-748b148411ad0ee6a388f6694948afe5390bf48b470ab28e751b329fd0976f29-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-a4e5597467a2cbe92b74acf6af7ef96fe9b9f314c9d96a6e8e3c520cb19974b9",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2029",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "a4e5597467a2cbe92b74acf6af7ef96fe9b9f314c9d96a6e8e3c520cb19974b9",
+      "sourceFiles": [
+        "Scanned_20261112-2029.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-a4e5597467a2cbe92b74acf6af7ef96fe9b9f314c9d96a6e8e3c520cb19974b9-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-a4e5597467a2cbe92b74acf6af7ef96fe9b9f314c9d96a6e8e3c520cb19974b9-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-f5fa0bb19091498a14d177954c676b6f0d48df93f657868331376aaa36772c8a",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2030",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "f5fa0bb19091498a14d177954c676b6f0d48df93f657868331376aaa36772c8a",
+      "sourceFiles": [
+        "Scanned_20261112-2030.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-f5fa0bb19091498a14d177954c676b6f0d48df93f657868331376aaa36772c8a-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-f5fa0bb19091498a14d177954c676b6f0d48df93f657868331376aaa36772c8a-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-fc440ee4fb8df0105c981436643317ca40553c5e9b3c76e7083fa1b538067765",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2031",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "fc440ee4fb8df0105c981436643317ca40553c5e9b3c76e7083fa1b538067765",
+      "sourceFiles": [
+        "Scanned_20261112-2031.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-fc440ee4fb8df0105c981436643317ca40553c5e9b3c76e7083fa1b538067765-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-fc440ee4fb8df0105c981436643317ca40553c5e9b3c76e7083fa1b538067765-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-201f576a812fe507af143ba583cb9b49442c81a9cd68f8a2e5e55611bef0df45",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2032",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "201f576a812fe507af143ba583cb9b49442c81a9cd68f8a2e5e55611bef0df45",
+      "sourceFiles": [
+        "Scanned_20261112-2032.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-201f576a812fe507af143ba583cb9b49442c81a9cd68f8a2e5e55611bef0df45-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-201f576a812fe507af143ba583cb9b49442c81a9cd68f8a2e5e55611bef0df45-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-1a3a37e3a03602f222873eb1be194a5c2a311401fb2d2025843ff39006b8177e",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2033",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "1a3a37e3a03602f222873eb1be194a5c2a311401fb2d2025843ff39006b8177e",
+      "sourceFiles": [
+        "Scanned_20261112-2033.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-1a3a37e3a03602f222873eb1be194a5c2a311401fb2d2025843ff39006b8177e-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-1a3a37e3a03602f222873eb1be194a5c2a311401fb2d2025843ff39006b8177e-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-6cd692f3ed2dd9a44303970fcc6a5b35237cadb91b5d6b95740391d3bba7aff6",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2034",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "6cd692f3ed2dd9a44303970fcc6a5b35237cadb91b5d6b95740391d3bba7aff6",
+      "sourceFiles": [
+        "Scanned_20261112-2034.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-6cd692f3ed2dd9a44303970fcc6a5b35237cadb91b5d6b95740391d3bba7aff6-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-6cd692f3ed2dd9a44303970fcc6a5b35237cadb91b5d6b95740391d3bba7aff6-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-34da3f919fed6d7b4337bb5cf4fe629c06104f8b7acf550a1b087dba7147c961",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2035",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "34da3f919fed6d7b4337bb5cf4fe629c06104f8b7acf550a1b087dba7147c961",
+      "sourceFiles": [
+        "Scanned_20261112-2035.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-34da3f919fed6d7b4337bb5cf4fe629c06104f8b7acf550a1b087dba7147c961-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-34da3f919fed6d7b4337bb5cf4fe629c06104f8b7acf550a1b087dba7147c961-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-4cde1ce9118bff873f96b0797eca5c4f20af5bcd8965f400ffc269e6ecb196f5",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2036",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "4cde1ce9118bff873f96b0797eca5c4f20af5bcd8965f400ffc269e6ecb196f5",
+      "sourceFiles": [
+        "Scanned_20261112-2036.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-4cde1ce9118bff873f96b0797eca5c4f20af5bcd8965f400ffc269e6ecb196f5-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-4cde1ce9118bff873f96b0797eca5c4f20af5bcd8965f400ffc269e6ecb196f5-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-22446f61362e53123237396fa30717e2eef52944c78f51f7527a1edbc35469c9",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2037",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "22446f61362e53123237396fa30717e2eef52944c78f51f7527a1edbc35469c9",
+      "sourceFiles": [
+        "Scanned_20261112-2037.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-22446f61362e53123237396fa30717e2eef52944c78f51f7527a1edbc35469c9-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-22446f61362e53123237396fa30717e2eef52944c78f51f7527a1edbc35469c9-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-3b7749ac8308908499bdb9aedf804df4cff6c50d2638c1a1126741e723c12594",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2038",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "3b7749ac8308908499bdb9aedf804df4cff6c50d2638c1a1126741e723c12594",
+      "sourceFiles": [
+        "Scanned_20261112-2038.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-3b7749ac8308908499bdb9aedf804df4cff6c50d2638c1a1126741e723c12594-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-3b7749ac8308908499bdb9aedf804df4cff6c50d2638c1a1126741e723c12594-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-3797c3b4b9cd4c05529966a7b32c7f4f86887a9d100c6dad1bf57daa5828f49b",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2041",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "3797c3b4b9cd4c05529966a7b32c7f4f86887a9d100c6dad1bf57daa5828f49b",
+      "sourceFiles": [
+        "Scanned_20261112-2041.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-3797c3b4b9cd4c05529966a7b32c7f4f86887a9d100c6dad1bf57daa5828f49b-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-3797c3b4b9cd4c05529966a7b32c7f4f86887a9d100c6dad1bf57daa5828f49b-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-b70bbc172abcd0fe4740eba8c36425714e462f411e42f264f02294e4cc98dce4",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2042",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "b70bbc172abcd0fe4740eba8c36425714e462f411e42f264f02294e4cc98dce4",
+      "sourceFiles": [
+        "Scanned_20261112-2042.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-b70bbc172abcd0fe4740eba8c36425714e462f411e42f264f02294e4cc98dce4-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-b70bbc172abcd0fe4740eba8c36425714e462f411e42f264f02294e4cc98dce4-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-1763fc4565619e354543cb9a7342171675e1336919867b34542faf583c55d737",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2043",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "1763fc4565619e354543cb9a7342171675e1336919867b34542faf583c55d737",
+      "sourceFiles": [
+        "Scanned_20261112-2043.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-1763fc4565619e354543cb9a7342171675e1336919867b34542faf583c55d737-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-1763fc4565619e354543cb9a7342171675e1336919867b34542faf583c55d737-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-31084a3e86a1afec653830995475fa24acffa661bb3fa0f0b417c7bed592117e",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2044",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "31084a3e86a1afec653830995475fa24acffa661bb3fa0f0b417c7bed592117e",
+      "sourceFiles": [
+        "Scanned_20261112-2044.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-31084a3e86a1afec653830995475fa24acffa661bb3fa0f0b417c7bed592117e-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-31084a3e86a1afec653830995475fa24acffa661bb3fa0f0b417c7bed592117e-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-c6cf31748132e38ba27ab5be883445c881d5c80ac5f9b32cbe616fd6db4a4545",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2045",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "c6cf31748132e38ba27ab5be883445c881d5c80ac5f9b32cbe616fd6db4a4545",
+      "sourceFiles": [
+        "Scanned_20261112-2045.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c6cf31748132e38ba27ab5be883445c881d5c80ac5f9b32cbe616fd6db4a4545-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c6cf31748132e38ba27ab5be883445c881d5c80ac5f9b32cbe616fd6db4a4545-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-77eef36fc7c9ec3d7821475b8e090b85911aa3bb2f3bcd9cfba53f6ffd4553e7",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2046",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "77eef36fc7c9ec3d7821475b8e090b85911aa3bb2f3bcd9cfba53f6ffd4553e7",
+      "sourceFiles": [
+        "Scanned_20261112-2046.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-77eef36fc7c9ec3d7821475b8e090b85911aa3bb2f3bcd9cfba53f6ffd4553e7-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-77eef36fc7c9ec3d7821475b8e090b85911aa3bb2f3bcd9cfba53f6ffd4553e7-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-a5f7a1da900d64d0b1705fc1d47a4c2f4526da166bc04180cd168c6d419d5c79",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2047",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "a5f7a1da900d64d0b1705fc1d47a4c2f4526da166bc04180cd168c6d419d5c79",
+      "sourceFiles": [
+        "Scanned_20261112-2047.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-a5f7a1da900d64d0b1705fc1d47a4c2f4526da166bc04180cd168c6d419d5c79-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-a5f7a1da900d64d0b1705fc1d47a4c2f4526da166bc04180cd168c6d419d5c79-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-fce5d079fa91240f2cecb783706e632718c45fef0e04d90a04022a1750a52d7a",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2048",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "fce5d079fa91240f2cecb783706e632718c45fef0e04d90a04022a1750a52d7a",
+      "sourceFiles": [
+        "Scanned_20261112-2048.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-fce5d079fa91240f2cecb783706e632718c45fef0e04d90a04022a1750a52d7a-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-fce5d079fa91240f2cecb783706e632718c45fef0e04d90a04022a1750a52d7a-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-80aa162a22db82610766c711cb9f5f2cdfbaaa872e3a98fa8b6cc97ede3785b6",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2050",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "80aa162a22db82610766c711cb9f5f2cdfbaaa872e3a98fa8b6cc97ede3785b6",
+      "sourceFiles": [
+        "Scanned_20261112-2050.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-80aa162a22db82610766c711cb9f5f2cdfbaaa872e3a98fa8b6cc97ede3785b6-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-80aa162a22db82610766c711cb9f5f2cdfbaaa872e3a98fa8b6cc97ede3785b6-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-339f503c0429b3580ee8b9d07c129ee8a00337e226c2b5eddc43b1fb57bd026a",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2053",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "339f503c0429b3580ee8b9d07c129ee8a00337e226c2b5eddc43b1fb57bd026a",
+      "sourceFiles": [
+        "Scanned_20261112-2053.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-339f503c0429b3580ee8b9d07c129ee8a00337e226c2b5eddc43b1fb57bd026a-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-339f503c0429b3580ee8b9d07c129ee8a00337e226c2b5eddc43b1fb57bd026a-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-cf5ca5ab7c9ee3c098df5764bf773844f6c756475a08eb3c2c39dd6d914fff8e",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2055",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "cf5ca5ab7c9ee3c098df5764bf773844f6c756475a08eb3c2c39dd6d914fff8e",
+      "sourceFiles": [
+        "Scanned_20261112-2055.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-cf5ca5ab7c9ee3c098df5764bf773844f6c756475a08eb3c2c39dd6d914fff8e-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-cf5ca5ab7c9ee3c098df5764bf773844f6c756475a08eb3c2c39dd6d914fff8e-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-c1b28cd698327ed2ebdce3af2d336432eebf4d189866d3f84eb7e85e3fc430b7",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2056",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "c1b28cd698327ed2ebdce3af2d336432eebf4d189866d3f84eb7e85e3fc430b7",
+      "sourceFiles": [
+        "Scanned_20261112-2056.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c1b28cd698327ed2ebdce3af2d336432eebf4d189866d3f84eb7e85e3fc430b7-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c1b28cd698327ed2ebdce3af2d336432eebf4d189866d3f84eb7e85e3fc430b7-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-7993288468eb074340cc675c1e3372399b17b53932519c935d0f8be849878063",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2057",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "7993288468eb074340cc675c1e3372399b17b53932519c935d0f8be849878063",
+      "sourceFiles": [
+        "Scanned_20261112-2057.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-7993288468eb074340cc675c1e3372399b17b53932519c935d0f8be849878063-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-7993288468eb074340cc675c1e3372399b17b53932519c935d0f8be849878063-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-a48771ef639682d6ae508d49809a515a963a1d8d418eb2d658d7bdded01c6228",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2058",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "a48771ef639682d6ae508d49809a515a963a1d8d418eb2d658d7bdded01c6228",
+      "sourceFiles": [
+        "Scanned_20261112-2058.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-a48771ef639682d6ae508d49809a515a963a1d8d418eb2d658d7bdded01c6228-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-a48771ef639682d6ae508d49809a515a963a1d8d418eb2d658d7bdded01c6228-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-0ae37f06c82f683884a31cd31153c21ee606052c4ec9a09ed0a7878082b0a7b6",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2059",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "0ae37f06c82f683884a31cd31153c21ee606052c4ec9a09ed0a7878082b0a7b6",
+      "sourceFiles": [
+        "Scanned_20261112-2059.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-0ae37f06c82f683884a31cd31153c21ee606052c4ec9a09ed0a7878082b0a7b6-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-0ae37f06c82f683884a31cd31153c21ee606052c4ec9a09ed0a7878082b0a7b6-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-dce28f8fbe2441cf9ffe1aca407f20868b962389234fae72705ed5af2ed3c4e0",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2100",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "dce28f8fbe2441cf9ffe1aca407f20868b962389234fae72705ed5af2ed3c4e0",
+      "sourceFiles": [
+        "Scanned_20261112-2100.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-dce28f8fbe2441cf9ffe1aca407f20868b962389234fae72705ed5af2ed3c4e0-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-dce28f8fbe2441cf9ffe1aca407f20868b962389234fae72705ed5af2ed3c4e0-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-c5e1dae553355f7e93d59dd171e09277aa69e6912138e13307ecb569cb88de36",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2101",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "c5e1dae553355f7e93d59dd171e09277aa69e6912138e13307ecb569cb88de36",
+      "sourceFiles": [
+        "Scanned_20261112-2101.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c5e1dae553355f7e93d59dd171e09277aa69e6912138e13307ecb569cb88de36-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c5e1dae553355f7e93d59dd171e09277aa69e6912138e13307ecb569cb88de36-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-5311655c9eca3b68487b4be5d0aff9a0034c9981f6a9572cff288da31417f9f8",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2102",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "5311655c9eca3b68487b4be5d0aff9a0034c9981f6a9572cff288da31417f9f8",
+      "sourceFiles": [
+        "Scanned_20261112-2102.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-5311655c9eca3b68487b4be5d0aff9a0034c9981f6a9572cff288da31417f9f8-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-5311655c9eca3b68487b4be5d0aff9a0034c9981f6a9572cff288da31417f9f8-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-4c55812c8fa17539b16a379267e3461987b2e258c13df29aec6cda83ed807733",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2103",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "4c55812c8fa17539b16a379267e3461987b2e258c13df29aec6cda83ed807733",
+      "sourceFiles": [
+        "Scanned_20261112-2103.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-4c55812c8fa17539b16a379267e3461987b2e258c13df29aec6cda83ed807733-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-4c55812c8fa17539b16a379267e3461987b2e258c13df29aec6cda83ed807733-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-618db90de019063c7417a269eb5788c3b7a272fd60c8038039662bdf99311f4f",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2104",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "618db90de019063c7417a269eb5788c3b7a272fd60c8038039662bdf99311f4f",
+      "sourceFiles": [
+        "Scanned_20261112-2104.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-618db90de019063c7417a269eb5788c3b7a272fd60c8038039662bdf99311f4f-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-618db90de019063c7417a269eb5788c3b7a272fd60c8038039662bdf99311f4f-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-9e56afcae654747f6586f77d1788a7658c4b801d096df6574344e9f5118083b7",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2105",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "9e56afcae654747f6586f77d1788a7658c4b801d096df6574344e9f5118083b7",
+      "sourceFiles": [
+        "Scanned_20261112-2105.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-9e56afcae654747f6586f77d1788a7658c4b801d096df6574344e9f5118083b7-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-9e56afcae654747f6586f77d1788a7658c4b801d096df6574344e9f5118083b7-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-ffb3460ed9a2c7bd774b01b46c87a5c8fceb3679e0757fabde11e395332e444b",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2106",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "ffb3460ed9a2c7bd774b01b46c87a5c8fceb3679e0757fabde11e395332e444b",
+      "sourceFiles": [
+        "Scanned_20261112-2106.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-ffb3460ed9a2c7bd774b01b46c87a5c8fceb3679e0757fabde11e395332e444b-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-ffb3460ed9a2c7bd774b01b46c87a5c8fceb3679e0757fabde11e395332e444b-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-e7f8d65c2bc2a5d28eb2fe1f2b3c6a3d6ee812d18171c23a1131c6c6044e5c68",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2107",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "e7f8d65c2bc2a5d28eb2fe1f2b3c6a3d6ee812d18171c23a1131c6c6044e5c68",
+      "sourceFiles": [
+        "Scanned_20261112-2107.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-e7f8d65c2bc2a5d28eb2fe1f2b3c6a3d6ee812d18171c23a1131c6c6044e5c68-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-e7f8d65c2bc2a5d28eb2fe1f2b3c6a3d6ee812d18171c23a1131c6c6044e5c68-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-21711e2b3144d449d829fc7c34fd98b9cbecf429ba454a869960e2ed33edf783",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2108",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "21711e2b3144d449d829fc7c34fd98b9cbecf429ba454a869960e2ed33edf783",
+      "sourceFiles": [
+        "Scanned_20261112-2108.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-21711e2b3144d449d829fc7c34fd98b9cbecf429ba454a869960e2ed33edf783-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-21711e2b3144d449d829fc7c34fd98b9cbecf429ba454a869960e2ed33edf783-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-064fba8960d97d338f90a7d11c2bfeb4353a862882bf2edfaa7c299ceb07ab8e",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2109",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "064fba8960d97d338f90a7d11c2bfeb4353a862882bf2edfaa7c299ceb07ab8e",
+      "sourceFiles": [
+        "Scanned_20261112-2109.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-064fba8960d97d338f90a7d11c2bfeb4353a862882bf2edfaa7c299ceb07ab8e-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-064fba8960d97d338f90a7d11c2bfeb4353a862882bf2edfaa7c299ceb07ab8e-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-42ae5b76f3e91953b24d1d1eb13621c628bf316c765411765669d0b146f1cd39",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2110",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "42ae5b76f3e91953b24d1d1eb13621c628bf316c765411765669d0b146f1cd39",
+      "sourceFiles": [
+        "Scanned_20261112-2110.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-42ae5b76f3e91953b24d1d1eb13621c628bf316c765411765669d0b146f1cd39-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-42ae5b76f3e91953b24d1d1eb13621c628bf316c765411765669d0b146f1cd39-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-d194527e88aa71b427451d4aaf98ab3ab5b016454fa4dba95a2d169eb1aa424e",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2111",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "d194527e88aa71b427451d4aaf98ab3ab5b016454fa4dba95a2d169eb1aa424e",
+      "sourceFiles": [
+        "Scanned_20261112-2111.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-d194527e88aa71b427451d4aaf98ab3ab5b016454fa4dba95a2d169eb1aa424e-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-d194527e88aa71b427451d4aaf98ab3ab5b016454fa4dba95a2d169eb1aa424e-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-6269c065fb343a217188b3782607b7d001ac9fc0fdd0af95e4742938f9719cb8",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2112",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "6269c065fb343a217188b3782607b7d001ac9fc0fdd0af95e4742938f9719cb8",
+      "sourceFiles": [
+        "Scanned_20261112-2112.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-6269c065fb343a217188b3782607b7d001ac9fc0fdd0af95e4742938f9719cb8-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-6269c065fb343a217188b3782607b7d001ac9fc0fdd0af95e4742938f9719cb8-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-0a5f691981af219bda55c58255013373bd95431b9270b03b56765bd5ad7622c2",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2113",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "0a5f691981af219bda55c58255013373bd95431b9270b03b56765bd5ad7622c2",
+      "sourceFiles": [
+        "Scanned_20261112-2113.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-0a5f691981af219bda55c58255013373bd95431b9270b03b56765bd5ad7622c2-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-0a5f691981af219bda55c58255013373bd95431b9270b03b56765bd5ad7622c2-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-35a97d49b0e3745ee0dc180fc98977b97465b261212689b37d048e7d784ff065",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2115",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "35a97d49b0e3745ee0dc180fc98977b97465b261212689b37d048e7d784ff065",
+      "sourceFiles": [
+        "Scanned_20261112-2115.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-35a97d49b0e3745ee0dc180fc98977b97465b261212689b37d048e7d784ff065-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-35a97d49b0e3745ee0dc180fc98977b97465b261212689b37d048e7d784ff065-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-9c2255e103a5ee3917363b7c9f4b7d561b730cf0488722741f5b3ec79a8f996a",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2116",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "9c2255e103a5ee3917363b7c9f4b7d561b730cf0488722741f5b3ec79a8f996a",
+      "sourceFiles": [
+        "Scanned_20261112-2116.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-9c2255e103a5ee3917363b7c9f4b7d561b730cf0488722741f5b3ec79a8f996a-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-9c2255e103a5ee3917363b7c9f4b7d561b730cf0488722741f5b3ec79a8f996a-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-4d8872a1ecda1883c6be2225d7b831a267d66ca070aa790fed87465d567a9150",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2117",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "4d8872a1ecda1883c6be2225d7b831a267d66ca070aa790fed87465d567a9150",
+      "sourceFiles": [
+        "Scanned_20261112-2117.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-4d8872a1ecda1883c6be2225d7b831a267d66ca070aa790fed87465d567a9150-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-4d8872a1ecda1883c6be2225d7b831a267d66ca070aa790fed87465d567a9150-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-c261ed46c7375db7eaadba4bc24d6106625cbbce4f6e5e2bc39e7074ed235534",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2118",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "c261ed46c7375db7eaadba4bc24d6106625cbbce4f6e5e2bc39e7074ed235534",
+      "sourceFiles": [
+        "Scanned_20261112-2118.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c261ed46c7375db7eaadba4bc24d6106625cbbce4f6e5e2bc39e7074ed235534-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c261ed46c7375db7eaadba4bc24d6106625cbbce4f6e5e2bc39e7074ed235534-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-c9a1dd44a885a2793ac0a6253f1e80415f83367c341698de5b63be241ba65a81",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2119",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "c9a1dd44a885a2793ac0a6253f1e80415f83367c341698de5b63be241ba65a81",
+      "sourceFiles": [
+        "Scanned_20261112-2119.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c9a1dd44a885a2793ac0a6253f1e80415f83367c341698de5b63be241ba65a81-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-c9a1dd44a885a2793ac0a6253f1e80415f83367c341698de5b63be241ba65a81-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-f01dabf7a951f7c97404fcfabf6f43100a9cdf14bdf8f05794d1f0f8fd5f090f",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2120",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "f01dabf7a951f7c97404fcfabf6f43100a9cdf14bdf8f05794d1f0f8fd5f090f",
+      "sourceFiles": [
+        "Scanned_20261112-2120.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-f01dabf7a951f7c97404fcfabf6f43100a9cdf14bdf8f05794d1f0f8fd5f090f-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-f01dabf7a951f7c97404fcfabf6f43100a9cdf14bdf8f05794d1f0f8fd5f090f-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-97165246b72b80b0cc68da07304312126427e5d8cff36899675a6e8015a6436a",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2121",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "97165246b72b80b0cc68da07304312126427e5d8cff36899675a6e8015a6436a",
+      "sourceFiles": [
+        "Scanned_20261112-2121.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-97165246b72b80b0cc68da07304312126427e5d8cff36899675a6e8015a6436a-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-97165246b72b80b0cc68da07304312126427e5d8cff36899675a6e8015a6436a-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-0db957e3c8c929dccf1902329b0967ce0de4001c13f1eb5a112e0fce1ccfd170",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2122",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "0db957e3c8c929dccf1902329b0967ce0de4001c13f1eb5a112e0fce1ccfd170",
+      "sourceFiles": [
+        "Scanned_20261112-2122.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-0db957e3c8c929dccf1902329b0967ce0de4001c13f1eb5a112e0fce1ccfd170-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-0db957e3c8c929dccf1902329b0967ce0de4001c13f1eb5a112e0fce1ccfd170-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-fff7dd391015346cbaa568aef8a35fc1e3154bf41d55fdfa6dbb8199cefc7875",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2123",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "fff7dd391015346cbaa568aef8a35fc1e3154bf41d55fdfa6dbb8199cefc7875",
+      "sourceFiles": [
+        "Scanned_20261112-2123.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-fff7dd391015346cbaa568aef8a35fc1e3154bf41d55fdfa6dbb8199cefc7875-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-fff7dd391015346cbaa568aef8a35fc1e3154bf41d55fdfa6dbb8199cefc7875-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-463ce23f1673e682de76709890ff01fa270602ce2c8e65377c4d1438ebc49514",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2124",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "463ce23f1673e682de76709890ff01fa270602ce2c8e65377c4d1438ebc49514",
+      "sourceFiles": [
+        "Scanned_20261112-2124.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-463ce23f1673e682de76709890ff01fa270602ce2c8e65377c4d1438ebc49514-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-463ce23f1673e682de76709890ff01fa270602ce2c8e65377c4d1438ebc49514-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-6a117c8c53553bf22cbe5c59f178c5b6f25357842d5e6e6c1d4823e09c0d4e58",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2125",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "6a117c8c53553bf22cbe5c59f178c5b6f25357842d5e6e6c1d4823e09c0d4e58",
+      "sourceFiles": [
+        "Scanned_20261112-2125.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-6a117c8c53553bf22cbe5c59f178c5b6f25357842d5e6e6c1d4823e09c0d4e58-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-6a117c8c53553bf22cbe5c59f178c5b6f25357842d5e6e6c1d4823e09c0d4e58-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-4139e610a769f78e920c81a435966dc143296286473d42cda31e6ff26ce0236c",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2126",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "4139e610a769f78e920c81a435966dc143296286473d42cda31e6ff26ce0236c",
+      "sourceFiles": [
+        "Scanned_20261112-2126.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-4139e610a769f78e920c81a435966dc143296286473d42cda31e6ff26ce0236c-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-4139e610a769f78e920c81a435966dc143296286473d42cda31e6ff26ce0236c-2.png"
+    },
+    {
+      "id": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302-pdf-60268009d907118c14fa7208452b48eb90d5b08d182abf0b43c8f808d16aec84",
+      "kind": "physical",
+      "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
+      "title": "Scanned_20261112-2127",
+      "collection": "Money & the Law Of Attraction",
+      "sourceType": "pdf",
+      "sourceHash": "60268009d907118c14fa7208452b48eb90d5b08d182abf0b43c8f808d16aec84",
+      "sourceFiles": [
+        "Scanned_20261112-2127.pdf"
+      ],
+      "front": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-60268009d907118c14fa7208452b48eb90d5b08d182abf0b43c8f808d16aec84-1.png",
+      "back": "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-60268009d907118c14fa7208452b48eb90d5b08d182abf0b43c8f808d16aec84-2.png"
     },
     {
       "id": "r1-001",
