@@ -268,7 +268,7 @@ on('#restore','click',async()=>{if(!restorePreview)return;const incoming=restore
 channel?.addEventListener('message',async()=>{try{personal=await readPersonal();render();}catch(e){failure(e);}});
 try{
   const response=await fetch(new URL('../data/cards.json',import.meta.url));if(!response.ok)throw Error('The master card library could not be loaded.');
-  const library=await response.json();master=library.cards;masterDecks=library.decks||[{id:'r1',title:'Vortex Cards R1'}];personal=await openStorage();currentId=master[0]?.id;render();
+  const library=await response.json();master=library.cards;masterDecks=library.decks||[{id:'r1',title:'Well Being'}];personal=await openStorage();currentId=master[0]?.id;render();
   initDeckScan({onLibrary:async library=>{master=library.cards;masterDecks=library.decks;personal=await readPersonal();if(deckId&&!decks().some(d=>d.id===deckId))deckId='';render();channel?.postMessage('master-updated');}});
   initSettings({getCard:()=>({card:current(),back}),renderFace:displayFace,onError:failure});
   const preference=getRevealSettings().defaultView;

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "decks": 3,
-  "cards": 178,
+  "decks": 5,
+  "cards": 297,
   "issues": [],
   "sources": [
     {
@@ -554,6 +554,537 @@
       "asset": "assets/cards/deck-be044c40-c234-46ba-8e72-dc65839b7c12/b61.jpg"
     },
     {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0341.pdf",
+      "sha256": "a3af730ce71458c4c27967bedbfe3244349e4b65dc73160f44e8bc302708fc49",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-a3af730ce71458c4c27967bedbfe3244349e4b65dc73160f44e8bc302708fc49-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-a3af730ce71458c4c27967bedbfe3244349e4b65dc73160f44e8bc302708fc49-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0342.pdf",
+      "sha256": "37deda26367b3d80613c9e913d1b1444a746f05c1497836d667bf77cda98e93d",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-37deda26367b3d80613c9e913d1b1444a746f05c1497836d667bf77cda98e93d-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-37deda26367b3d80613c9e913d1b1444a746f05c1497836d667bf77cda98e93d-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0343.pdf",
+      "sha256": "23d3a7d358f7329e1c8c77ce1e7c80e827d64227c218115b077c9b20cf00a0f5",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-23d3a7d358f7329e1c8c77ce1e7c80e827d64227c218115b077c9b20cf00a0f5-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-23d3a7d358f7329e1c8c77ce1e7c80e827d64227c218115b077c9b20cf00a0f5-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0346.pdf",
+      "sha256": "72046b8c185cd5ab4b1d65e3b91f1d05fa0b8e00c985afbbd799c8914c635a8b",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-72046b8c185cd5ab4b1d65e3b91f1d05fa0b8e00c985afbbd799c8914c635a8b-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-72046b8c185cd5ab4b1d65e3b91f1d05fa0b8e00c985afbbd799c8914c635a8b-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0347.pdf",
+      "sha256": "ad0faabf418edf0f5e6c91f1bd994b807ea821e327943bf315b5ada9e4142877",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-ad0faabf418edf0f5e6c91f1bd994b807ea821e327943bf315b5ada9e4142877-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-ad0faabf418edf0f5e6c91f1bd994b807ea821e327943bf315b5ada9e4142877-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0350.pdf",
+      "sha256": "3f7d21677ee44962b8bff1993d518d3e15284bc0a41433703039eb6da1abb445",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-3f7d21677ee44962b8bff1993d518d3e15284bc0a41433703039eb6da1abb445-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-3f7d21677ee44962b8bff1993d518d3e15284bc0a41433703039eb6da1abb445-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0351.pdf",
+      "sha256": "09e491809c57f657ab97d00e4a3c514380e84aa759019e33d0bfead1bf20e272",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-09e491809c57f657ab97d00e4a3c514380e84aa759019e33d0bfead1bf20e272-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-09e491809c57f657ab97d00e4a3c514380e84aa759019e33d0bfead1bf20e272-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0353.pdf",
+      "sha256": "57d11932e618dba584033e4fd96d1dc31fa1d5e9c711e3807465cf0832914693",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-57d11932e618dba584033e4fd96d1dc31fa1d5e9c711e3807465cf0832914693-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-57d11932e618dba584033e4fd96d1dc31fa1d5e9c711e3807465cf0832914693-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0355.pdf",
+      "sha256": "df6f556679ee422a11219c9087366c6ca8975647ddb0142d22eef0d7d7c5575e",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-df6f556679ee422a11219c9087366c6ca8975647ddb0142d22eef0d7d7c5575e-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-df6f556679ee422a11219c9087366c6ca8975647ddb0142d22eef0d7d7c5575e-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0356.pdf",
+      "sha256": "272d7d66580aaf276e534b8ea0893cd6cdc95f8dc7dcc3d420d2995849180c9f",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-272d7d66580aaf276e534b8ea0893cd6cdc95f8dc7dcc3d420d2995849180c9f-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-272d7d66580aaf276e534b8ea0893cd6cdc95f8dc7dcc3d420d2995849180c9f-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0357.pdf",
+      "sha256": "8ba55102e27705148c890b3e9211ac34ee0def39b40fb471118a0288aa9a9e1d",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-8ba55102e27705148c890b3e9211ac34ee0def39b40fb471118a0288aa9a9e1d-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-8ba55102e27705148c890b3e9211ac34ee0def39b40fb471118a0288aa9a9e1d-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0359.pdf",
+      "sha256": "79acc747440dcbb3d0af5173dfd4a37586d0708f80606d2550f5c7d28e361c15",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-79acc747440dcbb3d0af5173dfd4a37586d0708f80606d2550f5c7d28e361c15-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-79acc747440dcbb3d0af5173dfd4a37586d0708f80606d2550f5c7d28e361c15-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0400.pdf",
+      "sha256": "2ce9252f8f194e3e279559f861495328190f4a06adcd96f526da5b7685da0611",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-2ce9252f8f194e3e279559f861495328190f4a06adcd96f526da5b7685da0611-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-2ce9252f8f194e3e279559f861495328190f4a06adcd96f526da5b7685da0611-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0402.pdf",
+      "sha256": "1771a20744598438c802f792cdf006e7b12b366b0339f20021999399eab2e165",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-1771a20744598438c802f792cdf006e7b12b366b0339f20021999399eab2e165-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-1771a20744598438c802f792cdf006e7b12b366b0339f20021999399eab2e165-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0403(1).pdf",
+      "sha256": "b463979671cafcce01dcb9fa83de54f2aba2d165098d225bc5bd390eb739dc66",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-b463979671cafcce01dcb9fa83de54f2aba2d165098d225bc5bd390eb739dc66-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-b463979671cafcce01dcb9fa83de54f2aba2d165098d225bc5bd390eb739dc66-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0403.pdf",
+      "sha256": "1e6ae3d8bcc0272d87a3d4b0ab71f3472826b27682d074381362a8f9b9f4700d",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-1e6ae3d8bcc0272d87a3d4b0ab71f3472826b27682d074381362a8f9b9f4700d-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-1e6ae3d8bcc0272d87a3d4b0ab71f3472826b27682d074381362a8f9b9f4700d-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0405.pdf",
+      "sha256": "9032ed8814f28155eb57eb27152a6451406f0cb241fb252c9fa7a63e9e294de3",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-9032ed8814f28155eb57eb27152a6451406f0cb241fb252c9fa7a63e9e294de3-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-9032ed8814f28155eb57eb27152a6451406f0cb241fb252c9fa7a63e9e294de3-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0406.pdf",
+      "sha256": "e21a42559e4f0711d7f327f2c674415c566306a1c1808b823414548d769e74de",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-e21a42559e4f0711d7f327f2c674415c566306a1c1808b823414548d769e74de-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-e21a42559e4f0711d7f327f2c674415c566306a1c1808b823414548d769e74de-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0407.pdf",
+      "sha256": "0985481a147ade03051d1b9c4b019d3f800189bb662d2eb3dbe6803b1c12a1e3",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-0985481a147ade03051d1b9c4b019d3f800189bb662d2eb3dbe6803b1c12a1e3-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-0985481a147ade03051d1b9c4b019d3f800189bb662d2eb3dbe6803b1c12a1e3-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0409.pdf",
+      "sha256": "983cf707188813a6f866c2863eb4dff5639a564a4b4dc2f43034b9d0f21e4836",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-983cf707188813a6f866c2863eb4dff5639a564a4b4dc2f43034b9d0f21e4836-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-983cf707188813a6f866c2863eb4dff5639a564a4b4dc2f43034b9d0f21e4836-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0412.pdf",
+      "sha256": "207c5b818f49a2fd68fb65e8f97891726e5b50439427ffd7853dbdf6c75767e6",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-207c5b818f49a2fd68fb65e8f97891726e5b50439427ffd7853dbdf6c75767e6-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-207c5b818f49a2fd68fb65e8f97891726e5b50439427ffd7853dbdf6c75767e6-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0414.pdf",
+      "sha256": "ae10d5fbeae7d83eb6eebdad998aa85f399ac0c7820f3ecf6f80f2e2906db7f1",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-ae10d5fbeae7d83eb6eebdad998aa85f399ac0c7820f3ecf6f80f2e2906db7f1-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-ae10d5fbeae7d83eb6eebdad998aa85f399ac0c7820f3ecf6f80f2e2906db7f1-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0415.pdf",
+      "sha256": "4352762d431153919704d0fe2a7ceab13a87371f9239d95b4ab0c35d1feb879d",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-4352762d431153919704d0fe2a7ceab13a87371f9239d95b4ab0c35d1feb879d-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-4352762d431153919704d0fe2a7ceab13a87371f9239d95b4ab0c35d1feb879d-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0416.pdf",
+      "sha256": "01fe1f340e6e23ea6c44b90d3f2a44517deba9c74cd78a878058292f746c2601",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-01fe1f340e6e23ea6c44b90d3f2a44517deba9c74cd78a878058292f746c2601-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-01fe1f340e6e23ea6c44b90d3f2a44517deba9c74cd78a878058292f746c2601-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0417.pdf",
+      "sha256": "c2405584f86c3daf48278b09ad0571190c3afa75c90bcf0589434d8a2f5ef7ab",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-c2405584f86c3daf48278b09ad0571190c3afa75c90bcf0589434d8a2f5ef7ab-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-c2405584f86c3daf48278b09ad0571190c3afa75c90bcf0589434d8a2f5ef7ab-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0419.pdf",
+      "sha256": "839d606142021231730614d38eafa4a4bcc87d85a271f1027f1e011207c148ae",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-839d606142021231730614d38eafa4a4bcc87d85a271f1027f1e011207c148ae-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-839d606142021231730614d38eafa4a4bcc87d85a271f1027f1e011207c148ae-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0421.pdf",
+      "sha256": "a6859bcc7a35e3e0a20c6efc64f0f4c3b7a19ff4aff1f876927b7b2da04dee1a",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-a6859bcc7a35e3e0a20c6efc64f0f4c3b7a19ff4aff1f876927b7b2da04dee1a-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-a6859bcc7a35e3e0a20c6efc64f0f4c3b7a19ff4aff1f876927b7b2da04dee1a-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0423.pdf",
+      "sha256": "6d01a96e2b2c38db79bd652d99cccc614991e8aabf4104b2bc783f9ec3207d48",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-6d01a96e2b2c38db79bd652d99cccc614991e8aabf4104b2bc783f9ec3207d48-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-6d01a96e2b2c38db79bd652d99cccc614991e8aabf4104b2bc783f9ec3207d48-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0427.pdf",
+      "sha256": "e04a58f4464ff54b05d59d9d67ad3000eb391822ed717574e741d5ebf911691e",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-e04a58f4464ff54b05d59d9d67ad3000eb391822ed717574e741d5ebf911691e-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-e04a58f4464ff54b05d59d9d67ad3000eb391822ed717574e741d5ebf911691e-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0428.pdf",
+      "sha256": "300e6c9c130bbbb1c6e95bc002a75746f81879839a7f01c6e081224ad1c9b938",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-300e6c9c130bbbb1c6e95bc002a75746f81879839a7f01c6e081224ad1c9b938-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-300e6c9c130bbbb1c6e95bc002a75746f81879839a7f01c6e081224ad1c9b938-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0429.pdf",
+      "sha256": "88459003ec28be5baeff0e31222fd7141a127864ce2ee7997c52fabb31e1cec0",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-88459003ec28be5baeff0e31222fd7141a127864ce2ee7997c52fabb31e1cec0-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-88459003ec28be5baeff0e31222fd7141a127864ce2ee7997c52fabb31e1cec0-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0430.pdf",
+      "sha256": "9c05c79283bc53ed5c48e8cd0dfe347f1f1854a321c55c6dfb9ba6174d191a35",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-9c05c79283bc53ed5c48e8cd0dfe347f1f1854a321c55c6dfb9ba6174d191a35-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-9c05c79283bc53ed5c48e8cd0dfe347f1f1854a321c55c6dfb9ba6174d191a35-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0434.pdf",
+      "sha256": "eaa7ab200ef408562b27af9e8af4179538ad08032c6394ad9613a3e5051bd1f5",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-eaa7ab200ef408562b27af9e8af4179538ad08032c6394ad9613a3e5051bd1f5-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-eaa7ab200ef408562b27af9e8af4179538ad08032c6394ad9613a3e5051bd1f5-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0437.pdf",
+      "sha256": "d8c99d20925b7f75b6905a9a0305417f416f5f4a742fbd74acd865e618cc6522",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-d8c99d20925b7f75b6905a9a0305417f416f5f4a742fbd74acd865e618cc6522-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-d8c99d20925b7f75b6905a9a0305417f416f5f4a742fbd74acd865e618cc6522-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0439.pdf",
+      "sha256": "97e9c08a39d71306eb76970ccfcc2beb1a26b313b15560281be760f32867ca54",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-97e9c08a39d71306eb76970ccfcc2beb1a26b313b15560281be760f32867ca54-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-97e9c08a39d71306eb76970ccfcc2beb1a26b313b15560281be760f32867ca54-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0440.pdf",
+      "sha256": "502c8db77d35e3910accbf5049e88109b0409dac25cf3160c42989c47a4b0449",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-502c8db77d35e3910accbf5049e88109b0409dac25cf3160c42989c47a4b0449-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-502c8db77d35e3910accbf5049e88109b0409dac25cf3160c42989c47a4b0449-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0441.pdf",
+      "sha256": "96890d38eb1576eeeb9d2791e2bdefffe13abdacb08734ec89113f4e398ed81b",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-96890d38eb1576eeeb9d2791e2bdefffe13abdacb08734ec89113f4e398ed81b-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-96890d38eb1576eeeb9d2791e2bdefffe13abdacb08734ec89113f4e398ed81b-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0443.pdf",
+      "sha256": "57b1d19b3070ea722210e158ebc799ecb31b912f3314438450c2a12b601b8d73",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-57b1d19b3070ea722210e158ebc799ecb31b912f3314438450c2a12b601b8d73-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-57b1d19b3070ea722210e158ebc799ecb31b912f3314438450c2a12b601b8d73-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0444.pdf",
+      "sha256": "5494cc1b62ad2359de966b6331dbb5e971dffdb9cf347bbd24a53ae28fca9026",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-5494cc1b62ad2359de966b6331dbb5e971dffdb9cf347bbd24a53ae28fca9026-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-5494cc1b62ad2359de966b6331dbb5e971dffdb9cf347bbd24a53ae28fca9026-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0445.pdf",
+      "sha256": "02bde105ca1bd9fc84c6b452ad525c6d32e120aee1dbadd375cba320930288ff",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-02bde105ca1bd9fc84c6b452ad525c6d32e120aee1dbadd375cba320930288ff-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-02bde105ca1bd9fc84c6b452ad525c6d32e120aee1dbadd375cba320930288ff-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0446.pdf",
+      "sha256": "d14b123fdd67fd02323bdaa0474cbf5edd25225b95bfdc62cfd990bbfe404746",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-d14b123fdd67fd02323bdaa0474cbf5edd25225b95bfdc62cfd990bbfe404746-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-d14b123fdd67fd02323bdaa0474cbf5edd25225b95bfdc62cfd990bbfe404746-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0447.pdf",
+      "sha256": "c1eb71fc02b0ef773789f56cfeb70be75f84122d54cacd1626cbf0ab0b1b3263",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-c1eb71fc02b0ef773789f56cfeb70be75f84122d54cacd1626cbf0ab0b1b3263-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-c1eb71fc02b0ef773789f56cfeb70be75f84122d54cacd1626cbf0ab0b1b3263-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0449.pdf",
+      "sha256": "1bebd2860f52629e93cfc8a8e9386e485b23028ddb36470e792720dafca2ab64",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-1bebd2860f52629e93cfc8a8e9386e485b23028ddb36470e792720dafca2ab64-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-1bebd2860f52629e93cfc8a8e9386e485b23028ddb36470e792720dafca2ab64-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0450.pdf",
+      "sha256": "335cec596d3d824b00c7475311acb0761f8509d1a219e4aba22b7a6a554e855f",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-335cec596d3d824b00c7475311acb0761f8509d1a219e4aba22b7a6a554e855f-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-335cec596d3d824b00c7475311acb0761f8509d1a219e4aba22b7a6a554e855f-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0451.pdf",
+      "sha256": "001f759734359218ef35b90c2ff788c648715a6751c97709f2aa8d56c7e7955f",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-001f759734359218ef35b90c2ff788c648715a6751c97709f2aa8d56c7e7955f-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-001f759734359218ef35b90c2ff788c648715a6751c97709f2aa8d56c7e7955f-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0452.pdf",
+      "sha256": "a3d1e7d8df53a60b39ac6ae7427d557fe6d7a2848279f1d99906cbd5bf6fe2fa",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-a3d1e7d8df53a60b39ac6ae7427d557fe6d7a2848279f1d99906cbd5bf6fe2fa-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-a3d1e7d8df53a60b39ac6ae7427d557fe6d7a2848279f1d99906cbd5bf6fe2fa-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0453.pdf",
+      "sha256": "ff2032439388a8bb1cb9af25d6ffeeb15ba1a3e4f2fac1e84de220f2af4ff79e",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-ff2032439388a8bb1cb9af25d6ffeeb15ba1a3e4f2fac1e84de220f2af4ff79e-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-ff2032439388a8bb1cb9af25d6ffeeb15ba1a3e4f2fac1e84de220f2af4ff79e-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0454.pdf",
+      "sha256": "95844c8ca658b8108ab2942b136fdf88a57c607d82e8700f399560b6f8e813fa",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-95844c8ca658b8108ab2942b136fdf88a57c607d82e8700f399560b6f8e813fa-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-95844c8ca658b8108ab2942b136fdf88a57c607d82e8700f399560b6f8e813fa-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0455.pdf",
+      "sha256": "60e85157549a7639b01db871a9850f1d63b4b8555f60b12e405c285c23333153",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-60e85157549a7639b01db871a9850f1d63b4b8555f60b12e405c285c23333153-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-60e85157549a7639b01db871a9850f1d63b4b8555f60b12e405c285c23333153-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0456.pdf",
+      "sha256": "2cbe5f8c1bc628cfbfddc06f48da530c5443a0d428f515cbe71b9e2f8a1bc202",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-2cbe5f8c1bc628cfbfddc06f48da530c5443a0d428f515cbe71b9e2f8a1bc202-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-2cbe5f8c1bc628cfbfddc06f48da530c5443a0d428f515cbe71b9e2f8a1bc202-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0457.pdf",
+      "sha256": "919061533f5a3f4f350c2650f60bb39237357ed45da9ee30bb363e3817897317",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-919061533f5a3f4f350c2650f60bb39237357ed45da9ee30bb363e3817897317-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-919061533f5a3f4f350c2650f60bb39237357ed45da9ee30bb363e3817897317-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0458.pdf",
+      "sha256": "22e2962cce80a97da06a4d28c2ad47ad7e1cd04035f9fffb6b45c13ead7d44b3",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-22e2962cce80a97da06a4d28c2ad47ad7e1cd04035f9fffb6b45c13ead7d44b3-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-22e2962cce80a97da06a4d28c2ad47ad7e1cd04035f9fffb6b45c13ead7d44b3-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0459.pdf",
+      "sha256": "fdf4294deccdef787df5f0edd76350a4ea8acc7e00ad0fc1105e3d7db6c72b76",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-fdf4294deccdef787df5f0edd76350a4ea8acc7e00ad0fc1105e3d7db6c72b76-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-fdf4294deccdef787df5f0edd76350a4ea8acc7e00ad0fc1105e3d7db6c72b76-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0500.pdf",
+      "sha256": "ddddb73635ca2228d7825c3b88aaf1f8e466576990d6129c8913d5d26b99e91b",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-ddddb73635ca2228d7825c3b88aaf1f8e466576990d6129c8913d5d26b99e91b-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-ddddb73635ca2228d7825c3b88aaf1f8e466576990d6129c8913d5d26b99e91b-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0501.pdf",
+      "sha256": "d33425adc5dd66eb2518342137c240d192df0b6b3530f0626bc4c0b01eccb59b",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-d33425adc5dd66eb2518342137c240d192df0b6b3530f0626bc4c0b01eccb59b-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-d33425adc5dd66eb2518342137c240d192df0b6b3530f0626bc4c0b01eccb59b-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0503.pdf",
+      "sha256": "340f2994f688f04506823268ac06c34c8e5f9e2818389e536af4e06aa0eb9f07",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-340f2994f688f04506823268ac06c34c8e5f9e2818389e536af4e06aa0eb9f07-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-340f2994f688f04506823268ac06c34c8e5f9e2818389e536af4e06aa0eb9f07-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0504.pdf",
+      "sha256": "f2b57bb3961f69983220089832ce580dc8d3543928c7e470d301737ece9d2314",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-f2b57bb3961f69983220089832ce580dc8d3543928c7e470d301737ece9d2314-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-f2b57bb3961f69983220089832ce580dc8d3543928c7e470d301737ece9d2314-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0507.pdf",
+      "sha256": "f731260279b03614753a38859e1fcb0f06aa0fe0b98b6b42b36d1a335bcd9144",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-f731260279b03614753a38859e1fcb0f06aa0fe0b98b6b42b36d1a335bcd9144-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-f731260279b03614753a38859e1fcb0f06aa0fe0b98b6b42b36d1a335bcd9144-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-48314076-62f2-4d49-b49e-1175cb87393d",
+      "file": "Scanned_20261113-0511.pdf",
+      "sha256": "0f20221793cfd9889d4a52362c4c7d05fa635b6ed9e67296dbb527e82857890e",
+      "assets": [
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-0f20221793cfd9889d4a52362c4c7d05fa635b6ed9e67296dbb527e82857890e-1.png",
+        "assets/cards/deck-48314076-62f2-4d49-b49e-1175cb87393d/pdf-0f20221793cfd9889d4a52362c4c7d05fa635b6ed9e67296dbb527e82857890e-2.png"
+      ]
+    },
+    {
       "deckId": "deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302",
       "file": "Scanned_20261112-2020.pdf",
       "sha256": "c8ed5b2f177192d2933c3572a7aae0687596f1ddade0f47d990c59292c6b0933",
@@ -1091,6 +1622,546 @@
       "assets": [
         "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-60268009d907118c14fa7208452b48eb90d5b08d182abf0b43c8f808d16aec84-1.png",
         "assets/cards/deck-813b3f94-a11b-4f29-b1fc-f5b4442f6302/pdf-60268009d907118c14fa7208452b48eb90d5b08d182abf0b43c8f808d16aec84-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0514.pdf",
+      "sha256": "799a1574bed7282ade6d25128b4fbf22caf43479c65bdfba9936db9beb813b9c",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-799a1574bed7282ade6d25128b4fbf22caf43479c65bdfba9936db9beb813b9c-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-799a1574bed7282ade6d25128b4fbf22caf43479c65bdfba9936db9beb813b9c-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0515.pdf",
+      "sha256": "e327e87b90646ff8c2e691de0e556338d36c507bf6e70a46ecdb427a64a5abfe",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-e327e87b90646ff8c2e691de0e556338d36c507bf6e70a46ecdb427a64a5abfe-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-e327e87b90646ff8c2e691de0e556338d36c507bf6e70a46ecdb427a64a5abfe-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0516.pdf",
+      "sha256": "0231419e902f0c9350942396a9736324c1eda7e236edd9b016c8467ab614b1fe",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-0231419e902f0c9350942396a9736324c1eda7e236edd9b016c8467ab614b1fe-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-0231419e902f0c9350942396a9736324c1eda7e236edd9b016c8467ab614b1fe-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0517.pdf",
+      "sha256": "7165906f7818b4bfaebb7d2b56851b2f6df49c27238784c66ae627f1dd4a2a01",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-7165906f7818b4bfaebb7d2b56851b2f6df49c27238784c66ae627f1dd4a2a01-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-7165906f7818b4bfaebb7d2b56851b2f6df49c27238784c66ae627f1dd4a2a01-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0519.pdf",
+      "sha256": "d264b4fd1c62fde337c5a002a54c00b2f1b369d21fdf08780aa308dd5d8d5662",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-d264b4fd1c62fde337c5a002a54c00b2f1b369d21fdf08780aa308dd5d8d5662-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-d264b4fd1c62fde337c5a002a54c00b2f1b369d21fdf08780aa308dd5d8d5662-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0520.pdf",
+      "sha256": "187590d0c158585687aeb085027b18ba106bebf06145f9ce5139822deb5b0822",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-187590d0c158585687aeb085027b18ba106bebf06145f9ce5139822deb5b0822-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-187590d0c158585687aeb085027b18ba106bebf06145f9ce5139822deb5b0822-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0521.pdf",
+      "sha256": "9031239d9a5ac2cb43e12b61df9e79a8db8e99a6eebc9393495d67390a6a07f7",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-9031239d9a5ac2cb43e12b61df9e79a8db8e99a6eebc9393495d67390a6a07f7-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-9031239d9a5ac2cb43e12b61df9e79a8db8e99a6eebc9393495d67390a6a07f7-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0523.pdf",
+      "sha256": "328f9252dff2d26c3272c2ebb7631de0cbf1606dc475666002d9618b062a496e",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-328f9252dff2d26c3272c2ebb7631de0cbf1606dc475666002d9618b062a496e-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-328f9252dff2d26c3272c2ebb7631de0cbf1606dc475666002d9618b062a496e-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0525.pdf",
+      "sha256": "2f88ad08388c90f6b8d2ddaf6dec141c7a5a591ec41c914886a1d1e871051416",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-2f88ad08388c90f6b8d2ddaf6dec141c7a5a591ec41c914886a1d1e871051416-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-2f88ad08388c90f6b8d2ddaf6dec141c7a5a591ec41c914886a1d1e871051416-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0526.pdf",
+      "sha256": "b1e78bfe5ba517c069c0635890792b401db1ddb00a2160b5d3c53271e0e6e67b",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-b1e78bfe5ba517c069c0635890792b401db1ddb00a2160b5d3c53271e0e6e67b-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-b1e78bfe5ba517c069c0635890792b401db1ddb00a2160b5d3c53271e0e6e67b-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0527.pdf",
+      "sha256": "da02051b90627d5928958067ca44b8e735086ace7234c285b5fda1d49bd88d84",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-da02051b90627d5928958067ca44b8e735086ace7234c285b5fda1d49bd88d84-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-da02051b90627d5928958067ca44b8e735086ace7234c285b5fda1d49bd88d84-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0528.pdf",
+      "sha256": "60512ef256ad00361aa02a50e89e50c55804d872edfaf5055a634c37fed54d46",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-60512ef256ad00361aa02a50e89e50c55804d872edfaf5055a634c37fed54d46-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-60512ef256ad00361aa02a50e89e50c55804d872edfaf5055a634c37fed54d46-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0530.pdf",
+      "sha256": "818c739cd28cbe908de4dc8b0e1ca7ac88c5866b5a9f647438b0be910c28104e",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-818c739cd28cbe908de4dc8b0e1ca7ac88c5866b5a9f647438b0be910c28104e-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-818c739cd28cbe908de4dc8b0e1ca7ac88c5866b5a9f647438b0be910c28104e-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0532.pdf",
+      "sha256": "e65b33e62844f0d2771506a3c7de054ec26634ad51fbba648488094df5635674",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-e65b33e62844f0d2771506a3c7de054ec26634ad51fbba648488094df5635674-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-e65b33e62844f0d2771506a3c7de054ec26634ad51fbba648488094df5635674-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0534.pdf",
+      "sha256": "f5be1633d0b3e9c4ddd3f527d3695fef40101fecee3954eb9fd1ae984b8c05fa",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-f5be1633d0b3e9c4ddd3f527d3695fef40101fecee3954eb9fd1ae984b8c05fa-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-f5be1633d0b3e9c4ddd3f527d3695fef40101fecee3954eb9fd1ae984b8c05fa-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0535.pdf",
+      "sha256": "0b200faeafde13ddd6688544dbbd8ab237be05461734eefd39d01d56f58c99e9",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-0b200faeafde13ddd6688544dbbd8ab237be05461734eefd39d01d56f58c99e9-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-0b200faeafde13ddd6688544dbbd8ab237be05461734eefd39d01d56f58c99e9-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0536.pdf",
+      "sha256": "7b95efe57b0456d06ff9791caea8f238f1dbf5b03011c2672db719636019c5c2",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-7b95efe57b0456d06ff9791caea8f238f1dbf5b03011c2672db719636019c5c2-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-7b95efe57b0456d06ff9791caea8f238f1dbf5b03011c2672db719636019c5c2-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0537.pdf",
+      "sha256": "54e43d9853005cdef85cc5020d6e37c0f5ea427db0a185b98bf737cced3ecc72",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-54e43d9853005cdef85cc5020d6e37c0f5ea427db0a185b98bf737cced3ecc72-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-54e43d9853005cdef85cc5020d6e37c0f5ea427db0a185b98bf737cced3ecc72-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0539.pdf",
+      "sha256": "65d49eab4c1a95ff6ec5b75fc66473a02d25ae14494dd567ccc7f294e45e8647",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-65d49eab4c1a95ff6ec5b75fc66473a02d25ae14494dd567ccc7f294e45e8647-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-65d49eab4c1a95ff6ec5b75fc66473a02d25ae14494dd567ccc7f294e45e8647-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0540.pdf",
+      "sha256": "a863277440d1f06bca9e0e91cbbd0c0422f1b8f3924483ddfd0d1ddc7d084e3a",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-a863277440d1f06bca9e0e91cbbd0c0422f1b8f3924483ddfd0d1ddc7d084e3a-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-a863277440d1f06bca9e0e91cbbd0c0422f1b8f3924483ddfd0d1ddc7d084e3a-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0541.pdf",
+      "sha256": "335dac476eb2c5bb6d35e4985decb19ac8009cd89562b2edbf6fd09e2792d578",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-335dac476eb2c5bb6d35e4985decb19ac8009cd89562b2edbf6fd09e2792d578-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-335dac476eb2c5bb6d35e4985decb19ac8009cd89562b2edbf6fd09e2792d578-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0543.pdf",
+      "sha256": "d02204e5a2fd17c7410270efd51b648f54383038eeb3afede99a0f4f69565a76",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-d02204e5a2fd17c7410270efd51b648f54383038eeb3afede99a0f4f69565a76-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-d02204e5a2fd17c7410270efd51b648f54383038eeb3afede99a0f4f69565a76-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0544.pdf",
+      "sha256": "4726bdc0abf1f1158ecac83292ac1daa7659416011c080da3960ec082fecff96",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-4726bdc0abf1f1158ecac83292ac1daa7659416011c080da3960ec082fecff96-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-4726bdc0abf1f1158ecac83292ac1daa7659416011c080da3960ec082fecff96-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0545.pdf",
+      "sha256": "3a8f36c2301db5b11b82de70e51d4fcaa05c521e24ca7169ac4c3cdec385a426",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-3a8f36c2301db5b11b82de70e51d4fcaa05c521e24ca7169ac4c3cdec385a426-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-3a8f36c2301db5b11b82de70e51d4fcaa05c521e24ca7169ac4c3cdec385a426-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0546.pdf",
+      "sha256": "3c803aa6e4b8307ff6a878e2fcb7c8915c8b0ec3abb79d749229d6d87f4cf79f",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-3c803aa6e4b8307ff6a878e2fcb7c8915c8b0ec3abb79d749229d6d87f4cf79f-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-3c803aa6e4b8307ff6a878e2fcb7c8915c8b0ec3abb79d749229d6d87f4cf79f-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0548.pdf",
+      "sha256": "83e0dc2c05caa2014b14bcca8a9b292a121e668a3ae0646822ed82bc0147b569",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-83e0dc2c05caa2014b14bcca8a9b292a121e668a3ae0646822ed82bc0147b569-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-83e0dc2c05caa2014b14bcca8a9b292a121e668a3ae0646822ed82bc0147b569-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0549.pdf",
+      "sha256": "88d2a40623437fef03dab6009d1df1e41ff7d0c79252e6a9cf3d3125fa3d02e7",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-88d2a40623437fef03dab6009d1df1e41ff7d0c79252e6a9cf3d3125fa3d02e7-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-88d2a40623437fef03dab6009d1df1e41ff7d0c79252e6a9cf3d3125fa3d02e7-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0550.pdf",
+      "sha256": "afe27447c1d5f5f8388b08988fec7e1f79779e4332a1d9d4ad087ccfefee0bdd",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-afe27447c1d5f5f8388b08988fec7e1f79779e4332a1d9d4ad087ccfefee0bdd-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-afe27447c1d5f5f8388b08988fec7e1f79779e4332a1d9d4ad087ccfefee0bdd-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0551.pdf",
+      "sha256": "2b2cb2c3281e90f716b29cdd55d3c8c68f0f4bed8f413b02b61dc0e4b9750fd0",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-2b2cb2c3281e90f716b29cdd55d3c8c68f0f4bed8f413b02b61dc0e4b9750fd0-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-2b2cb2c3281e90f716b29cdd55d3c8c68f0f4bed8f413b02b61dc0e4b9750fd0-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0552.pdf",
+      "sha256": "e2ad25a38c7874123c56b7b8ba17a12003c5f8062f30804dd538086f27b3e2a6",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-e2ad25a38c7874123c56b7b8ba17a12003c5f8062f30804dd538086f27b3e2a6-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-e2ad25a38c7874123c56b7b8ba17a12003c5f8062f30804dd538086f27b3e2a6-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0554.pdf",
+      "sha256": "669c158a4ac78fbdaf591e9e7df857382f424b986fa9308f792e6504570ed994",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-669c158a4ac78fbdaf591e9e7df857382f424b986fa9308f792e6504570ed994-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-669c158a4ac78fbdaf591e9e7df857382f424b986fa9308f792e6504570ed994-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0555.pdf",
+      "sha256": "f0163ee7df2c70c224efc7752ab92a5d59c50d2bbff56fb7dbdd863a00c007ce",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-f0163ee7df2c70c224efc7752ab92a5d59c50d2bbff56fb7dbdd863a00c007ce-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-f0163ee7df2c70c224efc7752ab92a5d59c50d2bbff56fb7dbdd863a00c007ce-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0556.pdf",
+      "sha256": "a15ca3f667624855c6cf48cf4dd3a82356c9c15d6a60f3048cd9cc8bd0902f31",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-a15ca3f667624855c6cf48cf4dd3a82356c9c15d6a60f3048cd9cc8bd0902f31-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-a15ca3f667624855c6cf48cf4dd3a82356c9c15d6a60f3048cd9cc8bd0902f31-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0558.pdf",
+      "sha256": "62a730e52cc99c4caea9f151a041d232e8d0aa3e33adc695a27544e892e5a5ac",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-62a730e52cc99c4caea9f151a041d232e8d0aa3e33adc695a27544e892e5a5ac-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-62a730e52cc99c4caea9f151a041d232e8d0aa3e33adc695a27544e892e5a5ac-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0600.pdf",
+      "sha256": "61166304adad28d1543b33c4af91793fc61cddbfdb1cd50c5b75d52aa7abb20a",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-61166304adad28d1543b33c4af91793fc61cddbfdb1cd50c5b75d52aa7abb20a-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-61166304adad28d1543b33c4af91793fc61cddbfdb1cd50c5b75d52aa7abb20a-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0601(1).pdf",
+      "sha256": "ebfce70c337cf456780c04d58475f3fd5dbe7c19b0e389e75ba6db4840eb4b80",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-ebfce70c337cf456780c04d58475f3fd5dbe7c19b0e389e75ba6db4840eb4b80-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-ebfce70c337cf456780c04d58475f3fd5dbe7c19b0e389e75ba6db4840eb4b80-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0601.pdf",
+      "sha256": "3d284343ae26874b84048269514db24eb32f15849ec0ac0beb8294bdeaba8c55",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-3d284343ae26874b84048269514db24eb32f15849ec0ac0beb8294bdeaba8c55-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-3d284343ae26874b84048269514db24eb32f15849ec0ac0beb8294bdeaba8c55-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0602.pdf",
+      "sha256": "85ae9648d05f169c10a57b5b05d21b2f5d571ae63ad1543dbb5ad88c00e80817",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-85ae9648d05f169c10a57b5b05d21b2f5d571ae63ad1543dbb5ad88c00e80817-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-85ae9648d05f169c10a57b5b05d21b2f5d571ae63ad1543dbb5ad88c00e80817-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0603.pdf",
+      "sha256": "cf5555bb2460edc7f321eb51d3bed50db5f5ba728dd3095c9e3aeaea3b3ab540",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-cf5555bb2460edc7f321eb51d3bed50db5f5ba728dd3095c9e3aeaea3b3ab540-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-cf5555bb2460edc7f321eb51d3bed50db5f5ba728dd3095c9e3aeaea3b3ab540-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0604.pdf",
+      "sha256": "9b9d246fd4ea64953bb2a8635b131dde403eb06603a1b326685f4cfb2279abe4",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-9b9d246fd4ea64953bb2a8635b131dde403eb06603a1b326685f4cfb2279abe4-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-9b9d246fd4ea64953bb2a8635b131dde403eb06603a1b326685f4cfb2279abe4-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0605.pdf",
+      "sha256": "5047b573b587effa541f508e1bf8510e1054bffadf6f239556ceadef30c82297",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-5047b573b587effa541f508e1bf8510e1054bffadf6f239556ceadef30c82297-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-5047b573b587effa541f508e1bf8510e1054bffadf6f239556ceadef30c82297-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0606.pdf",
+      "sha256": "437f10918c665df11ccf7c267e7a8ce9c408088b36fe0b639d8d13c5bd19e99f",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-437f10918c665df11ccf7c267e7a8ce9c408088b36fe0b639d8d13c5bd19e99f-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-437f10918c665df11ccf7c267e7a8ce9c408088b36fe0b639d8d13c5bd19e99f-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0607.pdf",
+      "sha256": "d7262497ba7dffb21ff8b5506065d3131597297a3e8fdc044b0be190114886f0",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-d7262497ba7dffb21ff8b5506065d3131597297a3e8fdc044b0be190114886f0-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-d7262497ba7dffb21ff8b5506065d3131597297a3e8fdc044b0be190114886f0-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0608.pdf",
+      "sha256": "990a59bf99b609d230b4688251ddef3f8d01d8ab39da2f7b52ac2b5fc0bb8f65",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-990a59bf99b609d230b4688251ddef3f8d01d8ab39da2f7b52ac2b5fc0bb8f65-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-990a59bf99b609d230b4688251ddef3f8d01d8ab39da2f7b52ac2b5fc0bb8f65-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0610.pdf",
+      "sha256": "04f5d35882d07d2f6e3ee6db1b3a4efcfa87501910a524bc31b2214f338a76a8",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-04f5d35882d07d2f6e3ee6db1b3a4efcfa87501910a524bc31b2214f338a76a8-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-04f5d35882d07d2f6e3ee6db1b3a4efcfa87501910a524bc31b2214f338a76a8-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0612.pdf",
+      "sha256": "788861ffd4441a28dd176db2789f502495e07c1bcfac32eb25e8d994246cc7af",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-788861ffd4441a28dd176db2789f502495e07c1bcfac32eb25e8d994246cc7af-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-788861ffd4441a28dd176db2789f502495e07c1bcfac32eb25e8d994246cc7af-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0613.pdf",
+      "sha256": "313b2570a299b399d8bcfefdc093576b0d36adf4c3df92b5faca7c640751ef64",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-313b2570a299b399d8bcfefdc093576b0d36adf4c3df92b5faca7c640751ef64-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-313b2570a299b399d8bcfefdc093576b0d36adf4c3df92b5faca7c640751ef64-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0614.pdf",
+      "sha256": "a5b6ed1df4bf6ef7660fe6226f5ccd3f8bb79e250674bdcea399ea99a25f0658",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-a5b6ed1df4bf6ef7660fe6226f5ccd3f8bb79e250674bdcea399ea99a25f0658-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-a5b6ed1df4bf6ef7660fe6226f5ccd3f8bb79e250674bdcea399ea99a25f0658-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0616.pdf",
+      "sha256": "eec5d144294f65aa73ed19b83e13085f813f8aca7cefa00cca0d200c643cf91c",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-eec5d144294f65aa73ed19b83e13085f813f8aca7cefa00cca0d200c643cf91c-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-eec5d144294f65aa73ed19b83e13085f813f8aca7cefa00cca0d200c643cf91c-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0618.pdf",
+      "sha256": "521462caae762a2402250762f41da0fd3ca48542c62ea03126a90e27b9c68086",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-521462caae762a2402250762f41da0fd3ca48542c62ea03126a90e27b9c68086-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-521462caae762a2402250762f41da0fd3ca48542c62ea03126a90e27b9c68086-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0619.pdf",
+      "sha256": "a1976e0c7fb71a066a7b328ec3d572c54651a8e3b46304007f25862d6d4ab1ec",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-a1976e0c7fb71a066a7b328ec3d572c54651a8e3b46304007f25862d6d4ab1ec-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-a1976e0c7fb71a066a7b328ec3d572c54651a8e3b46304007f25862d6d4ab1ec-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0620.pdf",
+      "sha256": "8f3e57dd5194d490fe7df3c162ee28ebd26bee43640a022eed3a9df8361e86a0",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-8f3e57dd5194d490fe7df3c162ee28ebd26bee43640a022eed3a9df8361e86a0-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-8f3e57dd5194d490fe7df3c162ee28ebd26bee43640a022eed3a9df8361e86a0-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0622.pdf",
+      "sha256": "e6d316f7dc364d83ded9d2816b014f990dbe03da7e12ed93543ac3e618ebadc8",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-e6d316f7dc364d83ded9d2816b014f990dbe03da7e12ed93543ac3e618ebadc8-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-e6d316f7dc364d83ded9d2816b014f990dbe03da7e12ed93543ac3e618ebadc8-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0625.pdf",
+      "sha256": "07c0666d104a9ff2afc59697ca29f28150d3c4468c33e0bf2bc8060b60388948",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-07c0666d104a9ff2afc59697ca29f28150d3c4468c33e0bf2bc8060b60388948-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-07c0666d104a9ff2afc59697ca29f28150d3c4468c33e0bf2bc8060b60388948-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0627.pdf",
+      "sha256": "058ad5e33616a0fe8ecc911d27a5348d7f09dabf9d14e3259c209c3a86a530ac",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-058ad5e33616a0fe8ecc911d27a5348d7f09dabf9d14e3259c209c3a86a530ac-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-058ad5e33616a0fe8ecc911d27a5348d7f09dabf9d14e3259c209c3a86a530ac-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0629.pdf",
+      "sha256": "599977eff5bf8e76c60dfe98c8cf4b4692ea08638283e96ecde0b898bfb768fb",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-599977eff5bf8e76c60dfe98c8cf4b4692ea08638283e96ecde0b898bfb768fb-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-599977eff5bf8e76c60dfe98c8cf4b4692ea08638283e96ecde0b898bfb768fb-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0630.pdf",
+      "sha256": "fbce26f651b0d9cd7bf4d1a0dcff9d15e3f4ed60a6af53f5c4d32410b91cb014",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-fbce26f651b0d9cd7bf4d1a0dcff9d15e3f4ed60a6af53f5c4d32410b91cb014-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-fbce26f651b0d9cd7bf4d1a0dcff9d15e3f4ed60a6af53f5c4d32410b91cb014-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0631.pdf",
+      "sha256": "d0914a7619a196d7543598ae9710454f83fe08d90b21735b9a1a6b3d86fc766e",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-d0914a7619a196d7543598ae9710454f83fe08d90b21735b9a1a6b3d86fc766e-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-d0914a7619a196d7543598ae9710454f83fe08d90b21735b9a1a6b3d86fc766e-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0632.pdf",
+      "sha256": "99292568a79405cefc95bd77517e39e75c59b0803066858a6125583ee8237f80",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-99292568a79405cefc95bd77517e39e75c59b0803066858a6125583ee8237f80-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-99292568a79405cefc95bd77517e39e75c59b0803066858a6125583ee8237f80-2.png"
+      ]
+    },
+    {
+      "deckId": "deck-594cc870-6339-446e-8061-b9d458ee49cc",
+      "file": "Scanned_20261113-0634.pdf",
+      "sha256": "570fa68ca973083fbd151d2fa2c3c73f7955ff51cb4151420d7bb3eee08279f7",
+      "assets": [
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-570fa68ca973083fbd151d2fa2c3c73f7955ff51cb4151420d7bb3eee08279f7-1.png",
+        "assets/cards/deck-594cc870-6339-446e-8061-b9d458ee49cc/pdf-570fa68ca973083fbd151d2fa2c3c73f7955ff51cb4151420d7bb3eee08279f7-2.png"
       ]
     },
     {

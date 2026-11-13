@@ -35,7 +35,7 @@ Open **http://127.0.0.1:4173** in a modern browser. Keep the terminal running; u
 
 ## Storage and portability
 
-`data/cards.json` is the generated master catalog. R1 retains stable IDs `r1-001` through `r1-058`; new master card IDs combine the permanent deck ID with the card number. `assets/cards/<deck-id>/` holds display assets. The original `Vortex Cards-R1/` is unchanged. The active deck is indexed in `All Decks/Vortex Cards R1/` with manifest ID `r1`. `data/r1-inventory.json` retains original checksums; `data/deck-index-report.json` records indexed deck/card counts, issues and source hashes. Fronts 32 and 37 now use genuine JPEG sources rendered at 300 DPI, quality 95, without chroma subsampling. Their original PDFs remain in the R1 backup; `data/r1-jpeg-conversions.json` records provenance and checksums without changing the original integrity inventory. Other R1 display assets are exact source copies.
+`data/cards.json` is the generated master catalog. R1 retains stable IDs `r1-001` through `r1-058`; new master card IDs combine the permanent deck ID with the card number. `assets/cards/<deck-id>/` holds display assets. The original `Vortex Cards-R1/` is unchanged. The active deck is indexed in `All Decks/Well Being/` (formerly Vortex Cards R1) with manifest ID `r1`. `data/r1-inventory.json` retains original checksums; `data/deck-index-report.json` records indexed deck/card counts, issues and source hashes. Fronts 32 and 37 now use genuine JPEG sources rendered at 300 DPI, quality 95, without chroma subsampling. Their original PDFs remain in the R1 backup; `data/r1-jpeg-conversions.json` records provenance and checksums without changing the original integrity inventory. Other R1 display assets are exact source copies.
 
 IndexedDB database `into-the-vortex`, version 1, contains the `personal` store. A single transactional library record contains user cards, metadata overlays keyed by stable card ID, and preferences. Optional additive `decks`, `deckNames` and `deckId` fields support personal organization; there is no destructive schema migration. Existing records and V1 backups still work without those fields. Image faces of personal imports are embedded data URLs, including in backups. Master metadata is never written into the master JSON. On every load the app merges the latest master with personal overlays, so new packaged cards appear without replacing personal changes. BroadcastChannel refreshes open tabs after a successful write; write transactions read the latest stored record to preserve unrelated concurrent updates.
 
@@ -97,7 +97,7 @@ In the browser, **Decks → Rename** changes only your own display name and is b
 To change the packaged master title and optionally its physical folder, run from the Game root:
 
 ```powershell
-npm run rename:deck -- r1 "Vortex Cards R1" "Vortex Cards R1"
+npm run rename:deck -- r1 "Well Being" "Well Being"
 npm run build
 ```
 
