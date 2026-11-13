@@ -9,14 +9,19 @@ import {initSettings} from './settings-ui.js';
 const $=s=>document.querySelector(s);
 let master=[],personal,section='all',kind='all',tag='',query='',currentId=null,back=false,bag=[],poolKey='',docsPreview=[],physicalPreview=[],restorePreview=null,toastTimer,physicalGeneration=0;
 let expandedRatio=5/7,expandedScroll=0;
-let masterDecks=[],deckId='';
+let masterDecks=[],deckId='',customMode=false;
+const CUSTOM_KEY='vortex-custom-decks';
+let customIds=(()=>{try{const v=JSON.parse(localStorage.getItem(CUSTOM_KEY));return Array.isArray(v)?v.filter(x=>typeof x==='string'):null;}catch{return null;}})();
+function saveCustom(){try{localStorage.setItem(CUSTOM_KEY,JSON.stringify(customIds));}catch{}}
 let drawPending=false,activeReveal=null,pendingFace=null,renderVersion=0,readerRatioLock=null;
 function cancelReveal(){pendingFace?.abort();pendingFace=null;activeReveal?.cancel();activeReveal=null;readerRatioLock=null;}
 const channel=typeof BroadcastChannel!=='undefined'?new BroadcastChannel('vortex-updates'):null;
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const all=()=>mergedCards(master,personal);
-const selected=()=>filterCards(all(),{section,kind,tag,query,deckId});
 const decks=()=>availableDecks(masterDecks,personal,all());
+const customSelection=()=>{const ids=decks().map(d=>d.id);return customIds===null?ids:ids.filter(id=>customIds.includes(id));};
+const selected=()=>filterCards(all(),{section,kind,tag,query,deckId,deckIds:customMode&&!deckId?customSelection():null});
+function setCustom(ids){customIds=ids;saveCustom();render();}
 const deckTitle=id=>decks().find(d=>d.id===id)?.title||'All Decks';
 function deckOptions(value){return decks().map(d=>`<option value="${escape(d.id)}"${d.id===value?' selected':''}>${escape(d.title)}</option>`).join('');}
 const current=()=>all().find(c=>c.id===currentId);
@@ -27,7 +32,7 @@ async function save(update,message){personal=await mutatePersonal(update);channe
 async function patch(id,values,message){await save(p=>({...p,overrides:{...p.overrides,[id]:{...p.overrides[id],...values}}}),message);}
 function showDialog(id){cancelReveal();fitExpandedCard();const d=$(id);d.querySelector('.dialog-error')?.remove();d.showModal();}
 function selectionChanged(){bag=[];poolKey='';back=false;const cards=selected();currentId=cards[0]?.id||null;render();}
-function reset(){section='all';deckId='';kind='all';tag='';query='';$('#kind').value='all';$('#search').value='';selectionChanged();}
+function reset(){section='all';deckId='';customMode=false;kind='all';tag='';query='';$('#kind').value='all';$('#search').value='';selectionChanged();}
 function displayFace(card,side){
   if(card.kind==='physical')return `<img src="${escape(card[side])}" alt="${escape(card.title)} — ${side}" decoding="async">`;
   return `<div class="digital-face ${side==='back'?'back':''}" style="background:${escape(card.background||'#214f49')};color:${escape(card.color||'#fff8e9')}">${escape(card[side])}</div>`;
@@ -52,7 +57,7 @@ function renderExpanded(card){
   if(!$('#expanded-dialog').open)return;
   if(!card){$('#expanded-dialog').close();return;}
   $('#expanded-title').textContent=card.title;
-  $('#expanded-selection').textContent=section==='favorites'?'Favorites · All Decks':section==='tags'?`Tag: ${tag||'All tags'} · All Decks`:section==='archive'?'Archive · All Decks':deckId?deckTitle(deckId):'All Decks';
+  $('#expanded-selection').textContent=section==='favorites'?'Favorites · All Decks':section==='tags'?`Tag: ${tag||'All tags'} · All Decks`:section==='archive'?'Archive · All Decks':deckId?deckTitle(deckId):customMode?`Custom · ${customSelection().length}/${decks().length} decks`:'All Decks';
   $('#expanded-face').innerHTML=displayFace(card,back?'back':'front');
   $('#expanded-favorite').textContent=card.favorite?'★':'☆';
   $('#expanded-favorite').setAttribute('aria-pressed',String(!!card.favorite));
@@ -86,21 +91,28 @@ function render(){
   $('#count-all').textContent=cards.filter(c=>!c.archived).length;
   $('#count-favorites').textContent=cards.filter(c=>!c.archived&&c.favorite).length;
   $('#count-archive').textContent=cards.filter(c=>c.archived).length;
-  $('#deck-select').innerHTML='<option value="">All Decks</option>'+deckOptions(deckId);
-  $('#deck-select').value=deckId;
-  $('#all-decks').hidden=!deckId;
+  const chosen=customSelection(),totalDecks=decks().length;
+  $('#deck-select').innerHTML='<option value="">All Decks</option>'+`<option value="__custom">Custom selection (${chosen.length}/${totalDecks})</option>`+deckOptions(deckId);
+  $('#deck-select').value=customMode&&!deckId?'__custom':deckId;
+  $('#all-decks').hidden=!deckId&&!customMode;
+  $('#custom-toggle').setAttribute('aria-pressed',String(customMode));
+  $('#custom-toggle').classList.toggle('selected',customMode);
+  $('#custom-count').textContent=`${chosen.length}/${totalDecks}`;
+  $('#custom-count').hidden=!customMode;
+  $('#custom-tools').hidden=!customMode;
+  $('#decks-panel').classList.toggle('custom-on',customMode);
   $('#decks-panel').hidden=section!=='decks';
-  $('#deck-list').innerHTML=decks().map(d=>`<div class="deck-row"><button data-deck="${escape(d.id)}" class="${d.id===deckId?'selected':''}"><strong>${escape(d.title)}</strong><small>${cards.filter(c=>c.deckId===d.id&&!c.archived).length} active · ${cards.filter(c=>c.deckId===d.id).length} total · ${d.origin==='master'?'Built-in':d.origin==='unavailable'?'Unavailable source':'Personal'}</small></button><button class="text-button" data-rename-deck="${escape(d.id)}" aria-label="Rename ${escape(d.title)}">Rename</button></div>`).join('');
+  $('#deck-list').innerHTML=decks().map(d=>`<div class="deck-row"><div class="deck-card">${customMode?`<button type="button" role="checkbox" aria-checked="${chosen.includes(d.id)}" aria-label="Include ${escape(d.title)} in custom selection" class="deck-pill${chosen.includes(d.id)?' on':''}" data-pick="${escape(d.id)}">${chosen.includes(d.id)?'✓ Included':'Include'}</button>`:''}<button data-deck="${escape(d.id)}" class="${d.id===deckId?'selected':customMode&&chosen.includes(d.id)?'included':''}"><strong>${escape(d.title)}</strong><small>${cards.filter(c=>c.deckId===d.id&&!c.archived).length} active · ${cards.filter(c=>c.deckId===d.id).length} total · ${d.origin==='master'?'Built-in':d.origin==='unavailable'?'Unavailable source':'Personal'}</small></button></div><button class="text-button" data-rename-deck="${escape(d.id)}" aria-label="Rename ${escape(d.title)}">Rename</button></div>`).join('');
   document.querySelectorAll('[data-section]').forEach(b=>{b.classList.toggle('active',b.dataset.section===section);b.setAttribute('aria-current',b.dataset.section===section?'page':'false');});
   const tags=[...new Set(cards.filter(c=>!c.archived).flatMap(c=>c.tags||[]))].sort((a,b)=>a.localeCompare(b));
   $('#tag-nav').innerHTML=tags.slice(0,12).map(t=>`<button class="${tag===t?'selected':''}" data-tag="${escape(t)}">⌑ ${escape(t)}</button>`).join('');
   $('#tags-panel').hidden=section!=='tags';
   $('#tags-list').innerHTML=tags.length?tags.map(t=>`<button class="chip ${tag===t?'selected':''}" data-tag="${escape(t)}">${escape(t)} · ${cards.filter(c=>!c.archived&&c.tags?.includes(t)).length}</button>`).join(''):'<p>Add tags in Card details to create your own pathways.</p>';
-  const label=section==='archive'?'Archived cards':section==='favorites'?'Favorite cards':tag?`Tag: ${tag}`:deckId?`Deck: ${deckTitle(deckId)}`:'All active cards';
+  const label=section==='archive'?'Archived cards':section==='favorites'?'Favorite cards':tag?`Tag: ${tag}`:deckId?`Deck: ${deckTitle(deckId)}`:customMode?`Custom: ${chosen.length} of ${totalDecks} decks`:'All active cards';
   $('#selection-label').textContent=label;
-  $('#browse-title').textContent=section==='archive'?'Your archive':section==='favorites'?'Your favorites':tag?tag:deckId?deckTitle(deckId):'Your collection';
+  $('#browse-title').textContent=section==='archive'?'Your archive':section==='favorites'?'Your favorites':tag?tag:deckId?deckTitle(deckId):customMode?'Your custom selection':'Your collection';
   $('#card').hidden=!card;$('#empty').hidden=!!card;
-  $('#empty-message').textContent=section==='favorites'?'Star a card to keep it close.':section==='archive'?'Archived cards will wait for you here.':'There are no cards in this selection. Try another filter or add a card.';
+  $('#empty-message').textContent=section==='favorites'?'Star a card to keep it close.':section==='archive'?'Archived cards will wait for you here.':customMode&&!deckId&&!chosen.length?'No decks are selected. Include at least one deck in Decks to shuffle.':'There are no cards in this selection. Try another filter or add a card.';
   $('#card-face').innerHTML=card?displayFace(card,back?'back':'front'):'';
   $('#card-face img')?.addEventListener('error',()=>toast('This image could not be displayed. Check that the complete assets folder is available.'));
   $('#favorite').textContent=card?.favorite?'★':'☆';$('#favorite').setAttribute('aria-pressed',String(!!card?.favorite));$('#favorite').setAttribute('aria-label',card?.favorite?'Unfavorite card':'Favorite card');
@@ -174,9 +186,10 @@ document.addEventListener('click',e=>{
 },true);
 document.addEventListener('click',e=>{
   const close=e.target.closest('[data-close]');if(close)close.closest('dialog').close();
-  const nav=e.target.closest('[data-section]');if(nav){section=nav.dataset.section;deckId='';tag='';selectionChanged();}
-  const t=e.target.closest('[data-tag]');if(t){section='tags';deckId='';tag=tag===t.dataset.tag?'':t.dataset.tag;selectionChanged();}
-  const deck=e.target.closest('[data-deck]');if(deck){deckId=deck.dataset.deck;section='decks';tag='';query='';$('#search').value='';selectionChanged();}
+  const nav=e.target.closest('[data-section]');if(nav){section=nav.dataset.section;deckId='';if(section!=='decks')customMode=false;tag='';selectionChanged();}
+  const t=e.target.closest('[data-tag]');if(t){section='tags';deckId='';customMode=false;tag=tag===t.dataset.tag?'':t.dataset.tag;selectionChanged();}
+  const deck=e.target.closest('[data-deck]');if(deck){deckId=deck.dataset.deck;customMode=false;section='decks';tag='';query='';$('#search').value='';selectionChanged();}
+  const pick=e.target.closest('[data-pick]');if(pick){const id=pick.dataset.pick,cur=customSelection();setCustom(cur.includes(id)?cur.filter(x=>x!==id):[...cur,id]);}
   const rename=e.target.closest('[data-rename-deck]');if(rename){$('#deck-name-form').dataset.id=rename.dataset.renameDeck;$('#deck-name').value=deckTitle(rename.dataset.renameDeck);showDialog('#deck-name-dialog');}
   const c=e.target.closest('[data-card]');if(c){currentId=c.dataset.card;back=false;render();$('#card').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});}
   const method=e.target.closest('[data-method]');if(method){document.querySelectorAll('[data-method]').forEach(b=>b.classList.toggle('selected',b===method));$('#custom-form').hidden=method.dataset.method!=='custom';$('#docs-method').hidden=method.dataset.method!=='docs';$('#physical-method').hidden=method.dataset.method!=='physical';}
@@ -192,7 +205,10 @@ on('#theme-toggle','click',()=>{const theme=document.documentElement.dataset.the
 window.addEventListener('storage',e=>{if(e.key==='vortex-theme'||e.key===null)applyTheme(localStorage.getItem('vortex-theme'));});
 applyTheme(document.documentElement.dataset.theme);
 on('#kind','change',e=>{kind=e.target.value;selectionChanged();});on('#search','input',e=>{query=e.target.value;selectionChanged();});
-on('#deck-select','change',e=>{deckId=e.target.value;section=deckId?'decks':'all';tag='';selectionChanged();});
+on('#deck-select','change',e=>{if(e.target.value==='__custom'){deckId='';customMode=true;section='decks';tag='';}else{deckId=e.target.value;customMode=false;section=deckId?'decks':'all';tag='';}selectionChanged();});
+on('#custom-toggle','click',()=>{customMode=!customMode;if(customMode){deckId='';section='decks';tag='';}selectionChanged();});
+on('#custom-all','click',()=>setCustom(decks().map(d=>d.id)));
+on('#custom-none','click',()=>setCustom([]));
 on('#all-decks','click',reset);
 on('#create-deck-form','submit',async e=>{e.preventDefault();const title=$('#new-deck-name').value.trim();if(!title)throw Error('Enter a deck name.');const id=`user-deck-${crypto.randomUUID()}`;await save(p=>({...p,decks:[...(p.decks||[]),{id,title}]}),'Personal deck created.');$('#new-deck-name').value='';deckId=id;section='decks';tag='';selectionChanged();});
 on('#deck-name-form','submit',async e=>{e.preventDefault();const id=e.target.dataset.id,title=$('#deck-name').value.trim();if(!title)throw Error('Enter a deck name.');await save(p=>({...p,deckNames:{...p.deckNames,[id]:title}}),'Deck display name saved in this browser.');$('#deck-name-dialog').close();});
@@ -268,7 +284,7 @@ on('#restore','click',async()=>{if(!restorePreview)return;const incoming=restore
 channel?.addEventListener('message',async()=>{try{personal=await readPersonal();render();}catch(e){failure(e);}});
 try{
   const response=await fetch(new URL('../data/cards.json',import.meta.url));if(!response.ok)throw Error('The master card library could not be loaded.');
-  const library=await response.json();master=library.cards;masterDecks=library.decks||[{id:'r1',title:'Well Being'}];personal=await openStorage();currentId=master[0]?.id;render();
+  const library=await response.json();master=library.cards;masterDecks=library.decks||[{id:'r1',title:'Well Being'}];personal=await openStorage();{const home=all().filter(c=>!c.archived);currentId=(home[Math.floor(Math.random()*home.length)]||master[0])?.id;}render();
   initDeckScan({onLibrary:async library=>{master=library.cards;masterDecks=library.decks;personal=await readPersonal();if(deckId&&!decks().some(d=>d.id===deckId))deckId='';render();channel?.postMessage('master-updated');}});
   initSettings({getCard:()=>({card:current(),back}),renderFace:displayFace,onError:failure});
   const preference=getRevealSettings().defaultView;

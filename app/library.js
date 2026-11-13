@@ -25,8 +25,8 @@ export function parseDocs(text){
   });
 }
 export function mergedCards(master,personal){return [...master.map(c=>({...c,deckId:c.deckId||'r1'})),...personal.cards.map(c=>({...c,deckId:c.deckId||'personal'}))].map(card=>({...card,...personal.overrides[card.id],id:card.id,kind:card.kind}));}
-export function filterCards(cards,{section='all',kind='all',tag='',query='',deckId=''}={}){
-  return cards.filter(c=>(section==='archive'?c.archived:!c.archived) && (section!=='favorites'||c.favorite) && (!deckId||['favorites','tags','archive'].includes(section)||c.deckId===deckId) && (kind==='all'||c.kind===kind) && (!tag||(c.tags||[]).includes(tag)) && (!query||`${c.title} ${(c.tags||[]).join(' ')} ${c.kind==='digital'?c.front+' '+c.back:''}`.toLowerCase().includes(query.toLowerCase())));
+export function filterCards(cards,{section='all',kind='all',tag='',query='',deckId='',deckIds=null}={}){
+  return cards.filter(c=>(section==='archive'?c.archived:!c.archived) && (section!=='favorites'||c.favorite) && (!deckId||['favorites','tags','archive'].includes(section)||c.deckId===deckId) && (!deckIds||['favorites','tags','archive'].includes(section)||deckIds.includes(c.deckId)) && (kind==='all'||c.kind===kind) && (!tag||(c.tags||[]).includes(tag)) && (!query||`${c.title} ${(c.tags||[]).join(' ')} ${c.kind==='digital'?c.front+' '+c.back:''}`.toLowerCase().includes(query.toLowerCase())));
 }
 export function drawCard(cards,bag=[],noRepeat=false,random=Math.random){
   if(!cards.length)return {card:null,bag:[]};
