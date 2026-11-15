@@ -4,7 +4,7 @@ import path from 'node:path';
 import {randomBytes} from 'node:crypto';
 import {fork} from 'node:child_process';
 import {fileURLToPath,pathToFileURL} from 'node:url';
-const types={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.wasm':'application/wasm','.json':'application/json','.css':'text/css','.jpg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml','.webp':'image/webp','.ico':'image/x-icon'};
+const types={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.wasm':'application/wasm','.json':'application/json','.css':'text/css','.jpg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml','.webp':'image/webp','.ico':'image/x-icon','.pdf':'application/pdf'};
 export function createVortexServer({root=process.cwd(),staticOnly=false}={}){
   root=path.resolve(root);const token=randomBytes(32).toString('hex');let job={state:'idle'},worker;
   const json=(res,status,data)=>{res.writeHead(status,{'Content-Type':'application/json','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(data));};

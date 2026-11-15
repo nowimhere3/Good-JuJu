@@ -3,21 +3,31 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#123c38"><meta name="description" content="A quiet space to draw, contemplate and collect your Into the VORTEX cards.">
-  <title>Into the VORTEX</title><script src="app/theme-init.js"></script><link rel="stylesheet" href="app/style.css">
+  <title>Good JuJu</title><script src="app/theme-init.js"></script><link rel="stylesheet" href="app/style.css">
   <link rel="manifest" href="./manifest.webmanifest">
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="./" aria-label="Into the VORTEX home"><span class="brand-icon">◎</span><span>INTO THE <b>VORTEX</b><small>A little space. A new perspective.</small></span></a><div class="header-actions"><button id="settings-open" class="quiet" aria-label="Settings">&#9881; Settings</button><button id="theme-toggle" class="quiet" aria-label="Dark theme" aria-pressed="false">☾ Dark</button><button id="backup-open" class="quiet">Backup & restore</button></div></header>
+  <header class="topbar"><a class="brand" href="./" aria-label="Good JuJu home"><span class="brand-icon">◎</span><span>GOOD <b>JUJU</b><small>A little space. A new perspective.</small></span></a><div class="header-actions"><button id="settings-open" class="quiet" aria-label="Settings">&#9881; Settings</button><button id="theme-toggle" class="quiet" aria-label="Dark theme" aria-pressed="false">☾ Dark</button><button id="backup-open" class="quiet">Backup & restore</button></div></header>
   <div class="layout">
     <aside><p class="eyebrow">YOUR SANCTUARY</p><nav aria-label="Library"><button data-section="all" class="nav active">◈ <span>All Cards</span><small id="count-all">—</small></button><button data-section="decks" class="nav">&#9633; <span>Decks</span></button><button data-section="favorites" class="nav">☆ <span>Favorites</span><small id="count-favorites">—</small></button><button data-section="tags" class="nav">⌑ <span>Tags</span></button><button data-section="archive" class="nav">▤ <span>Archive</span><small id="count-archive">—</small></button></nav><div id="tag-nav"></div><button id="add-open" class="add-button">＋ Add Card</button><div class="local-note"><span class="status-dot"></span> Yours, in this browser.<p>Your cards and reflections stay on your device. Back up to carry them with you.</p></div></aside>
     <main>
       <div class="heading"><div><p class="eyebrow">PAUSE · RECEIVE · BECOME</p><h1>A moment for <em>you.</em></h1><p class="subhead">Take a breath. Let a card meet you where you are.</p></div><span class="collection-label">YOUR CARD COLLECTION</span></div>
       <section class="workspace" aria-label="Card contemplation">
-        <div class="deck-toolbar"><label for="deck-select">Deck</label><select id="deck-select"><option value="">All Decks</option></select><button id="all-decks" class="text-button" hidden>All Decks</button></div><div class="toolbar"><span id="selection-label">All active cards</span><div><label class="sr-only" for="kind">Card type</label><select id="kind"><option value="all">All card types</option><option value="physical">Physical cards only</option><option value="digital">Digital cards only</option></select><button id="reset" class="text-button">Reset filters</button></div></div>
+        <div class="toolbar">
+          <div class="filter-row">
+            <label class="filter-field" for="deck-select"><span class="filter-label">Deck</span><select id="deck-select" aria-label="Deck"><option value="">All Decks</option></select></label>
+            <label class="filter-field" for="kind"><span class="sr-only">Card type</span><select id="kind" aria-label="Card type"><option value="all">All card types</option><option value="physical">Physical cards only</option><option value="digital">Digital cards only</option></select></label>
+          </div>
+          <div class="toolbar-meta">
+            <span id="selection-label">All active cards</span>
+            <button id="all-decks" class="text-button" hidden>All Decks</button>
+            <button id="reset" class="text-button">Reset filters</button>
+          </div>
+        </div>
         <div id="decks-panel" hidden><h2>Your decks</h2><p class="hint">Built-in collections and your personal decks. Favorites, tags and archive are global.</p><div class="custom-bar"><button id="custom-toggle" class="secondary" type="button" aria-pressed="false">Custom selection</button><span id="custom-count" class="custom-count" aria-live="polite" hidden></span><span id="custom-tools" hidden><button id="custom-all" class="text-button" type="button">Select all</button><button id="custom-none" class="text-button" type="button">Clear</button></span></div><p class="hint">Turn on Custom selection, then use the pill on each deck to choose which decks Shuffle &amp; draw uses. Choose a deck itself to browse it alone.</p><button id="scan-decks" class="secondary" type="button" disabled>Scan All Decks</button><p id="scan-status" class="hint" role="status" style="white-space:pre-wrap;overflow-wrap:anywhere">Checking local scanning availability...</p><div id="deck-list"></div><form id="create-deck-form"><label class="sr-only" for="new-deck-name">New personal deck name</label><input id="new-deck-name" required maxlength="160" placeholder="New personal deck name"><button class="secondary" type="submit">Create personal deck</button></form></div><div id="tags-panel" hidden><h2>Follow a feeling</h2><p>Choose a tag to draw from that part of your collection.</p><div id="tags-list" class="chips"></div></div>
         <div class="card-stage"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><article id="card" aria-label="Current card"><div id="card-face"></div><button id="favorite" class="favorite" aria-label="Favorite card" aria-pressed="false">☆</button><span id="side-label" class="side-label">FRONT</span></article><div id="empty" hidden><span class="empty-symbol">◎</span><h2>A little room for possibility.</h2><p id="empty-message">There are no cards in this selection.</p><button id="empty-reset">Return to all cards</button></div></div>
-        <div class="card-caption"><span id="card-title">Opening your collection…</span><span id="card-position"></span><button id="enlarge" class="text-button">Enlarge card ⤢</button></div>
-        <div class="draw-controls"><button id="flip" class="secondary">↻ <span>Reveal back</span></button><button id="shuffle" class="primary">✧ Shuffle & draw</button><button id="details-open" class="secondary">Card details</button></div>
+        <div class="card-caption"><span id="card-title">Opening your collection…</span><span id="card-position"></span><button id="details-open" class="text-button">Card details</button></div>
+        <div class="draw-controls"><button id="flip" class="secondary">↻ <span>Reveal back</span></button><button id="shuffle" class="primary">✧ Shuffle & draw</button><button id="enlarge" class="secondary">Enlarge</button><button id="share" class="secondary">Share</button></div>
         <label class="repeat"><input id="no-repeat" type="checkbox" checked> A fresh card each time <span>(until the collection is complete)</span></label><p id="shuffle-status" class="shuffle-status"></p>
       </section>
       <section class="collection"><div class="collection-heading"><div><p class="eyebrow">MAKE IT YOUR OWN</p><h2 id="browse-title">Your collection</h2></div><label class="search"><span class="sr-only">Search cards</span><input id="search" type="search" placeholder="Search titles, text or tags"></label></div><div id="grid" class="grid"></div><p id="grid-empty" hidden>No cards match this view.</p></section>
@@ -26,11 +36,27 @@
   </div>
   <div id="toast" role="status" aria-live="polite"></div>
   <dialog id="expanded-dialog" aria-labelledby="expanded-title">
-    <div class="expanded-heading"><span id="expanded-selection"></span><h2 id="expanded-title" class="sr-only">Your card</h2><button id="expanded-settings" class="quiet" aria-label="Settings">&#9881;</button><button id="minimize" data-close class="quiet" aria-label="Minimize enlarged card">⤡ Minimize</button></div>
+    <div class="expanded-heading">
+      <h2 id="expanded-title" class="sr-only">Your card</h2>
+      <span id="expanded-selection" class="sr-only"></span>
+      <button id="expanded-share" type="button" class="quiet" aria-label="Share card">Share</button>
+      <div class="expanded-deck-pill-wrap">
+        <label class="sr-only" for="expanded-deck-select">Deck</label>
+        <select id="expanded-deck-select" class="expanded-deck-pill" aria-label="Select deck"><option value="">All Decks</option></select>
+      </div>
+      <button id="expanded-settings" type="button" class="quiet" aria-label="Settings">&#9881; Settings</button>
+      <button id="minimize" type="button" data-close class="quiet" aria-label="Minimize enlarged card">⤡ Minimize</button>
+    </div>
     <div id="expanded-reading">
       <article id="expanded-card" aria-label="Enlarged current card"><div id="expanded-face"></div><button id="expanded-favorite" class="favorite" aria-label="Favorite card" aria-pressed="false">☆</button></article>
-      <div id="expanded-controls" role="group" aria-label="Enlarged card controls"><button id="expanded-flip" class="secondary">Reveal back</button><button id="expanded-shuffle" class="primary">Shuffle & draw</button><button id="expanded-details" class="secondary">Card details</button></div>
+      <div id="expanded-controls" role="group" aria-label="Enlarged card controls"><button id="expanded-flip" type="button" class="secondary">Reveal back</button><button id="expanded-shuffle" type="button" class="primary">Shuffle & draw</button><button id="expanded-more" type="button" class="secondary" aria-haspopup="menu" aria-expanded="false">More</button></div>
     </div>
+    <div id="expanded-more-menu" class="more-menu" role="menu" aria-label="More card actions" hidden>
+      <button id="expanded-details" type="button" class="more-menu-item" role="menuitem">Card Details</button>
+      <button id="expanded-copy-link" type="button" class="more-menu-item" role="menuitem">Copy Card Link</button>
+      <button id="expanded-share-image" type="button" class="more-menu-item" role="menuitem">Share as Image</button>
+    </div>
+    <div id="expanded-toast" class="expanded-toast" role="status" aria-live="polite"></div>
   </dialog>
   <dialog id="details-dialog"><form id="details-form"><div class="dialog-heading"><div><p class="eyebrow">YOUR PERSONAL COLLECTION</p><h2>Card details</h2></div><button type="button" data-close class="close" aria-label="Close">×</button></div><label>Deck<select id="detail-deck"></select></label><label>Card title<input id="detail-title" required maxlength="160"></label><label>Tags <small>Separate with commas · up to 80 characters each</small><input id="detail-tags" placeholder="Abundance, clarity, ease"></label><div id="digital-fields"><label>Front<textarea id="detail-front" rows="4"></textarea></label><label>Back<textarea id="detail-back" rows="7"></textarea></label><div class="color-fields"><label>Background<input id="detail-bg" type="color"></label><label>Text<input id="detail-color" type="color"></label></div></div><p id="physical-note" class="hint">Your title and tags are personal. The original scanned faces are preserved.</p><div class="dialog-actions"><button type="button" id="archive-card" class="secondary">Archive card</button><button type="submit" class="primary">Save changes</button></div></form></dialog>
   <dialog id="add-dialog"><div class="dialog-heading"><div><p class="eyebrow">GROW YOUR PRACTICE</p><h2>Add to your collection</h2></div><button data-close class="close" aria-label="Close">×</button></div><label>Add cards to deck<select id="import-deck"></select></label><div class="tabs" role="group" aria-label="Creation method"><button data-method="custom" class="selected">Digital card</button><button data-method="docs">Google Docs text</button><button data-method="physical">Physical pairs</button></div>
@@ -46,12 +72,12 @@
       <label>Sparkle Effect<select id="reveal-effect"></select></label>
       <label>Reveal Direction<select id="reveal-direction"></select></label>
       <button id="surprise-me" class="secondary">✧ Surprise Me</button><span class="settings-aside">Random effect + direction. Your duration stays fixed.</span>
-      <label for="reveal-duration">Sparkle Reveal Duration <output id="reveal-duration-value" for="reveal-duration">1.1s</output></label><input id="reveal-duration" type="range" min="0.5" max="3.5" step="0.1" value="1.1"><div class="duration-limits"><span>0.5s</span><span>3.5s</span></div>
+      <label for="reveal-duration">Sparkle Reveal Duration <output id="reveal-duration-value" for="reveal-duration">3.5s (Default)</output></label><input id="reveal-duration" type="range" min="0.5" max="3.5" step="0.1" value="3.5"><div class="duration-limits"><span>0.5s</span><span>3.5s (Default)</span></div>
       <div class="preview-controls"><button id="preview-effect" class="secondary">Preview Effect</button><span class="settings-aside">Try your draft without drawing or saving.</span></div>
       <div id="settings-preview-area" hidden><article id="settings-preview-card" aria-label="Effect preview"><div id="settings-preview-face"></div></article><p id="preview-status" role="status"></p></div>
       <p class="hint">Reduced motion skips the animation. Original artwork and digital colors stay intact.</p>
     </div></details>
-    <details class="settings-card" id="default-experience-section"><summary>Default Experience</summary><div class="settings-content"><label>Open the application in<select id="default-view"><option value="normal">Normal View</option><option value="enlarged">Enlarged View</option><option value="remember">Remember Last Used View</option></select></label><p class="hint">Used on your next visit. Remember Last Used View is the factory default. Opening the reader never draws another card.</p></div></details>
+    <details class="settings-card" id="default-experience-section"><summary>Default Experience</summary><div class="settings-content"><label>Open the application in<select id="default-view"><option value="normal">Normal View</option><option value="enlarged">Enlarged View</option><option value="remember" selected>Remember Last Used View (Default)</option></select></label><p class="hint">Used on your next visit. Remember Last Used View is the factory default. Opening the reader never draws another card.</p></div></details>
     <div class="settings-save"><p id="settings-status" role="status" aria-live="polite">Using saved settings</p><div class="settings-save-actions"><button id="close-settings" class="secondary">Close</button><button id="apply-settings" class="primary">Apply Settings</button></div></div>
   </dialog>
   <noscript>This card library needs JavaScript and browser storage enabled.</noscript><script type="module" src="app/main.js"></script>

@@ -1,13 +1,48 @@
 export const DIRECTIONS=[['ltr','Left → Right'],['rtl','Right → Left'],['ttb','Top → Bottom'],['btt','Bottom → Top'],['tl-br','Top-left → Bottom-right'],['tr-bl','Top-right → Bottom-left'],['bl-tr','Bottom-left → Top-right'],['br-tl','Bottom-right → Top-left']];
-export const DEFAULT_DURATION=1100;
+export const DEFAULT_DURATION=3500;
+export const DEFAULT_EFFECT='random';
+export const DEFAULT_DIRECTION='random';
+export const DEFAULT_VIEW='remember';
+export const MIGRATION_KEY='vortex-defaults-migrated-v1';
 export const EFFECTS=[['light','Light Sparkle'],['classic','Classic Sparkle'],['super','Super Sparkle'],['stardust','Stardust Trail'],['prismatic','Prismatic Wave'],['comet','Comet Shower']];
 export const VIEW_MODES=['normal','enlarged','remember'];
 export function normalizeDuration(value){const n=Number(value);return Number.isFinite(n)&&n>=.5&&n<=3.5?Math.round(n*10)*100:DEFAULT_DURATION;}
-function normalizeSettings(value={}){return {effect:EFFECTS.some(([id])=>id===value.effect)||value.effect==='random'?value.effect:'classic',direction:DIRECTIONS.some(([id])=>id===value.direction)||value.direction==='random'?value.direction:'ltr',duration:normalizeDuration(value.duration/1000),defaultView:VIEW_MODES.includes(value.defaultView)?value.defaultView:'remember'};}
-export function getRevealSettings(){
-  try{const saved=JSON.parse(localStorage.getItem('vortex-preferences-v2')||'null');if(saved?.version===2)return normalizeSettings(saved);return normalizeSettings({direction:localStorage.getItem('vortex-reveal-direction'),duration:normalizeDuration(localStorage.getItem('vortex-reveal-seconds'))});}catch{return normalizeSettings();}
+function normalizeSettings(value={}){
+  const v=value&&typeof value==='object'?value:{};
+  return {
+    effect:EFFECTS.some(([id])=>id===v.effect)||v.effect==='random'?v.effect:DEFAULT_EFFECT,
+    direction:DIRECTIONS.some(([id])=>id===v.direction)||v.direction==='random'?v.direction:DEFAULT_DIRECTION,
+    duration:normalizeDuration(v.duration!=null?v.duration/1000:undefined),
+    defaultView:VIEW_MODES.includes(v.defaultView)?v.defaultView:DEFAULT_VIEW
+  };
 }
-export function saveRevealSettings(draft){const value=normalizeSettings(draft);localStorage.setItem('vortex-preferences-v2',JSON.stringify({version:2,...value}));return value;}
+export function migrateRevealSettings(){
+  try{
+    if(localStorage.getItem(MIGRATION_KEY)==='1')return getRevealSettings();
+    const hasPrior=localStorage.getItem('vortex-preferences-v2')!==null||localStorage.getItem('vortex-reveal-direction')!==null||localStorage.getItem('vortex-reveal-seconds')!==null;
+    const defaults=normalizeSettings();
+    if(hasPrior)localStorage.setItem('vortex-preferences-v2',JSON.stringify({version:2,...defaults}));
+    localStorage.setItem(MIGRATION_KEY,'1');
+    return defaults;
+  }catch{return normalizeSettings();}
+}
+export function getRevealSettings(){
+  try{
+    const saved=JSON.parse(localStorage.getItem('vortex-preferences-v2')||'null');
+    if(saved?.version===2)return normalizeSettings(saved);
+    if(localStorage.getItem(MIGRATION_KEY)!=='1'){
+      const legacyDir=localStorage.getItem('vortex-reveal-direction'),legacySec=localStorage.getItem('vortex-reveal-seconds');
+      if(legacyDir!==null||legacySec!==null)return normalizeSettings({direction:legacyDir,duration:normalizeDuration(legacySec)});
+    }
+    return normalizeSettings();
+  }catch{return normalizeSettings();}
+}
+export function saveRevealSettings(draft){
+  const value=normalizeSettings(draft);
+  localStorage.setItem('vortex-preferences-v2',JSON.stringify({version:2,...value}));
+  try{localStorage.setItem(MIGRATION_KEY,'1');}catch{/* Ignore migration flag write failure if storage is constrained. */}
+  return value;
+}
 export function getLastView(){try{return localStorage.getItem('vortex-last-view')==='enlarged'?'enlarged':'normal';}catch{return 'normal';}}
 export function rememberView(mode){try{localStorage.setItem('vortex-last-view',mode);}catch{/* Viewing still works when preference storage is unavailable. */}}
 const independentRandom=()=>crypto.getRandomValues(new Uint32Array(1))[0]/2**32;

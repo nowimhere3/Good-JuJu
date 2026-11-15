@@ -47,5 +47,5 @@ test('eight reveal boundaries are true moving half-planes; Random is independent
   const geometries=DIRECTIONS.map(([id])=>revealGeometry(300,420,id));assert.equal(new Set(geometries.map(g=>g.from.clip)).size,8);
   for(const g of geometries){assert.match(g.from.clip,/^polygon\(/);assert.notEqual(g.from.clip,g.to.clip);assert.notEqual(g.from.transform,g.to.transform);}
   assert.deepEqual(Array.from({length:8},(_,i)=>resolveDirection('random',()=>i/8)),DIRECTIONS.map(([id])=>id));
-  assert.equal(normalizeDuration(null),1100);assert.equal(normalizeDuration('.5'),500);assert.equal(normalizeDuration('2.0'),2000);assert.equal(normalizeDuration('1.3'),1300);assert.equal(normalizeDuration('broken'),1100);
+  assert.equal(normalizeDuration(null),3500);assert.equal(normalizeDuration('.5'),500);assert.equal(normalizeDuration('2.0'),2000);assert.equal(normalizeDuration('1.3'),1300);assert.equal(normalizeDuration('broken'),3500);
 });

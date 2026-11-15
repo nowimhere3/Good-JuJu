@@ -1,20 +1,21 @@
 import {DIRECTIONS,EFFECTS,getRevealSettings,saveRevealSettings} from './reveal-settings.js';
 import {captureFace,prepareFace,startSparkleReveal} from './sparkle.js';
 const $=s=>document.querySelector(s);
+const formatDuration=seconds=>`${Number(seconds).toFixed(1)}s${Math.round(Number(seconds)*10)===35?' (Default)':''}`;
 export function initSettings({getCard,renderFace,onError}){
   let baseline='',preview=null,loader=null,previewBusy=false;
   function cancelPreview(){loader?.abort();loader=null;preview?.cancel();preview=null;}
   function readDraft(){return {effect:$('#reveal-effect').value,direction:$('#reveal-direction').value,duration:Math.round(Number($('#reveal-duration').value)*1000),defaultView:$('#default-view').value};}
   function fill(settings){
     $('#reveal-effect').value=settings.effect;$('#reveal-direction').value=settings.direction;$('#reveal-duration').value=settings.duration/1000;$('#default-view').value=settings.defaultView;
-    $('#reveal-duration-value').textContent=`${(settings.duration/1000).toFixed(1)}s`;
+    $('#reveal-duration-value').textContent=formatDuration(settings.duration/1000);
   }
   function pending(){
-    cancelPreview();$('#reveal-duration-value').textContent=`${Number($('#reveal-duration').value).toFixed(1)}s`;
+    cancelPreview();$('#reveal-duration-value').textContent=formatDuration($('#reveal-duration').value);
     const changed=JSON.stringify(readDraft())!==baseline;$('#settings-status').textContent=changed?'Unapplied changes':'Using saved settings';$('#settings-status').dataset.state=changed?'pending':'idle';
   }
-  $('#reveal-effect').replaceChildren(...[...EFFECTS,['random','Random Effect']].map(([id,title])=>new Option(title,id)));
-  $('#reveal-direction').replaceChildren(...[...DIRECTIONS,['random','Random Direction']].map(([id,title])=>new Option(title,id)));
+  $('#reveal-effect').replaceChildren(...[...EFFECTS,['random','Random (Default)']].map(([id,title])=>new Option(title,id)));
+  $('#reveal-direction').replaceChildren(...[...DIRECTIONS,['random','Random (Default)']].map(([id,title])=>new Option(title,id)));
   function open(){
     const saved=getRevealSettings();fill(saved);baseline=JSON.stringify(saved);$('#settings-status').textContent='Using saved settings';$('#settings-status').dataset.state='idle';$('#settings-preview-area').hidden=true;$('#preview-effect').disabled=!getCard()?.card;
     $('#settings-dialog').querySelector('.dialog-error')?.remove();$('#settings-dialog').showModal();

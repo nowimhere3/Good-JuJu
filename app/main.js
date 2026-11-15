@@ -4,8 +4,9 @@ import {pairFiles,parseDocs,mergedCards,filterCards,drawCard,validateBackup,merg
 import {openStorage,readPersonal,mutatePersonal} from './storage.js';
 import {captureFace,prepareFace,startSparkleReveal} from './sparkle.js';
 import {availableDecks} from './decks.js';
-import {getRevealSettings,getLastView,rememberView} from './reveal-settings.js';
+import {migrateRevealSettings,getRevealSettings,getLastView,rememberView} from './reveal-settings.js';
 import {initSettings} from './settings-ui.js';
+import {shareCard,copyCardLink,shareCardAsImage,parseSharedCardParams} from './share.js';
 const $=s=>document.querySelector(s);
 let master=[],personal,section='all',kind='all',tag='',query='',currentId=null,back=false,bag=[],poolKey='',docsPreview=[],physicalPreview=[],restorePreview=null,toastTimer,physicalGeneration=0;
 let expandedRatio=5/7,expandedScroll=0;
@@ -25,12 +26,37 @@ function setCustom(ids){customIds=ids;saveCustom();render();}
 const deckTitle=id=>decks().find(d=>d.id===id)?.title||'All Decks';
 function deckOptions(value){return decks().map(d=>`<option value="${escape(d.id)}"${d.id===value?' selected':''}>${escape(d.title)}</option>`).join('');}
 const current=()=>all().find(c=>c.id===currentId);
-function toast(message){$('#toast').textContent=message;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),4500);}
+function toast(message){
+  for(const el of [$('#toast'),$('#expanded-toast')]){
+    if(!el)continue;
+    el.textContent=message;
+    el.classList.add('visible');
+  }
+  clearTimeout(toastTimer);
+  toastTimer=setTimeout(()=>{
+    for(const el of [$('#toast'),$('#expanded-toast')])el?.classList.remove('visible');
+  },4500);
+}
+function closeMoreMenu(){
+  const menu=$('#expanded-more-menu'),btn=$('#expanded-more');
+  if(menu)menu.hidden=true;
+  if(btn)btn.setAttribute('aria-expanded','false');
+}
+function toggleMoreMenu(){
+  const menu=$('#expanded-more-menu'),btn=$('#expanded-more');
+  if(!menu||!btn||btn.disabled)return;
+  if(!menu.hidden){closeMoreMenu();return;}
+  menu.hidden=false;
+  btn.setAttribute('aria-expanded','true');
+  const rect=btn.getBoundingClientRect();
+  menu.style.bottom=`${Math.max(12,window.innerHeight-rect.top+8)}px`;
+  menu.style.right=`${Math.max(12,window.innerWidth-rect.right)}px`;
+}
 function failure(e){console.error(e);const message=e.name==='QuotaExceededError'?'Browser storage is full. Export a backup and free device storage before trying again.':e.message||'Something went wrong. Please try again.';const dialog=[...document.querySelectorAll('dialog[open]')].at(-1);if(dialog){let out=dialog.querySelector('.dialog-error');if(!out){out=document.createElement('p');out.className='error dialog-error';out.setAttribute('role','alert');dialog.append(out);}out.textContent=message;}toast(message);}
 function on(selector,event,handler){$(selector).addEventListener(event,async e=>{const button=e.submitter||(e.currentTarget instanceof HTMLButtonElement?e.currentTarget:null);if(button?.dataset.busy)return;if(button)button.dataset.busy='true';try{await handler(e);}catch(err){failure(err);}finally{if(button)delete button.dataset.busy;}});}
 async function save(update,message){personal=await mutatePersonal(update);channel?.postMessage('updated');render();if(message)toast(message);}
 async function patch(id,values,message){await save(p=>({...p,overrides:{...p.overrides,[id]:{...p.overrides[id],...values}}}),message);}
-function showDialog(id){cancelReveal();fitExpandedCard();const d=$(id);d.querySelector('.dialog-error')?.remove();d.showModal();}
+function showDialog(id){closeMoreMenu();cancelReveal();fitExpandedCard();const d=$(id);d.querySelector('.dialog-error')?.remove();d.showModal();}
 function selectionChanged(){bag=[];poolKey='';back=false;const cards=selected();currentId=cards[0]?.id||null;render();}
 function reset(){section='all';deckId='';customMode=false;kind='all';tag='';query='';$('#kind').value='all';$('#search').value='';selectionChanged();}
 function displayFace(card,side){
@@ -55,15 +81,24 @@ function fitExpandedCard(){
 }
 function renderExpanded(card){
   if(!$('#expanded-dialog').open)return;
-  if(!card){$('#expanded-dialog').close();return;}
+  if(!card){closeMoreMenu();$('#expanded-dialog').close();return;}
   $('#expanded-title').textContent=card.title;
-  $('#expanded-selection').textContent=section==='favorites'?'Favorites · All Decks':section==='tags'?`Tag: ${tag||'All tags'} · All Decks`:section==='archive'?'Archive · All Decks':deckId?deckTitle(deckId):customMode?`Custom · ${customSelection().length}/${decks().length} decks`:'All Decks';
+  const chosen=customSelection(),totalDecks=decks().length;
+  $('#expanded-selection').textContent=section==='favorites'?'Favorites · All Decks':section==='tags'?`Tag: ${tag||'All tags'} · All Decks`:section==='archive'?'Archive · All Decks':deckId?deckTitle(deckId):customMode?`Custom · ${chosen.length}/${totalDecks} decks`:'All Decks';
+  const expandedDeck=$('#expanded-deck-select');
+  if(expandedDeck){
+    expandedDeck.innerHTML='<option value="">All Decks</option>'+`<option value="__custom">Custom selection (${chosen.length}/${totalDecks})</option>`+deckOptions(deckId);
+    expandedDeck.value=customMode&&!deckId?'__custom':deckId;
+  }
   $('#expanded-face').innerHTML=displayFace(card,back?'back':'front');
   $('#expanded-favorite').textContent=card.favorite?'★':'☆';
   $('#expanded-favorite').setAttribute('aria-pressed',String(!!card.favorite));
   $('#expanded-favorite').setAttribute('aria-label',card.favorite?'Unfavorite card':'Favorite card');
   $('#expanded-flip').textContent=back?'Show front':'Reveal back';
   $('#expanded-shuffle').disabled=drawPending||section==='archive'||!selected().length;
+  for(const id of ['expanded-share','expanded-more','expanded-details','expanded-copy-link','expanded-share-image']){
+    const el=$('#'+id);if(el)el.disabled=!card;
+  }
   const img=$('#expanded-face img');
   expandedRatio=5/7;
   if(img){
@@ -76,7 +111,14 @@ function renderExpanded(card){
 }
 new ResizeObserver(fitExpandedCard).observe($('#expanded-reading'));
 new ResizeObserver(fitExpandedCard).observe($('#expanded-controls'));
+window.addEventListener('resize',closeMoreMenu);
+$('#expanded-dialog').addEventListener('cancel',e=>{
+  const menu=$('#expanded-more-menu');
+  if(menu&&!menu.hidden){e.preventDefault();closeMoreMenu();$('#expanded-more')?.focus({preventScroll:true});}
+});
 $('#expanded-dialog').addEventListener('close',()=>{
+  closeMoreMenu();
+  $('#expanded-toast')?.classList.remove('visible');
   cancelReveal();
   rememberView('normal');
   document.body.classList.remove('enlarged');
@@ -92,8 +134,11 @@ function render(){
   $('#count-favorites').textContent=cards.filter(c=>!c.archived&&c.favorite).length;
   $('#count-archive').textContent=cards.filter(c=>c.archived).length;
   const chosen=customSelection(),totalDecks=decks().length;
-  $('#deck-select').innerHTML='<option value="">All Decks</option>'+`<option value="__custom">Custom selection (${chosen.length}/${totalDecks})</option>`+deckOptions(deckId);
-  $('#deck-select').value=customMode&&!deckId?'__custom':deckId;
+  const selectMarkup='<option value="">All Decks</option>'+`<option value="__custom">Custom selection (${chosen.length}/${totalDecks})</option>`+deckOptions(deckId);
+  const selectValue=customMode&&!deckId?'__custom':deckId;
+  $('#deck-select').innerHTML=selectMarkup;
+  $('#deck-select').value=selectValue;
+  if($('#expanded-deck-select')){$('#expanded-deck-select').innerHTML=selectMarkup;$('#expanded-deck-select').value=selectValue;}
   $('#all-decks').hidden=!deckId&&!customMode;
   $('#custom-toggle').setAttribute('aria-pressed',String(customMode));
   $('#custom-toggle').classList.toggle('selected',customMode);
@@ -112,13 +157,13 @@ function render(){
   $('#selection-label').textContent=label;
   $('#browse-title').textContent=section==='archive'?'Your archive':section==='favorites'?'Your favorites':tag?tag:deckId?deckTitle(deckId):customMode?'Your custom selection':'Your collection';
   $('#card').hidden=!card;$('#empty').hidden=!!card;
-  $('#empty-message').textContent=section==='favorites'?'Star a card to keep it close.':section==='archive'?'Archived cards will wait for you here.':customMode&&!deckId&&!chosen.length?'No decks are selected. Include at least one deck in Decks to shuffle.':'There are no cards in this selection. Try another filter or add a card.';
+  $('#empty-message').textContent=section==='favorites'?'Star a card to keep it close.':section==='archive'?'Archived cards will wait for you here.':customMode&&!deckId&&!chosen.length?'No decks are selected. Include at least one deck in Custom selection to shuffle.':'There are no cards in this selection. Try another filter or add a card.';
   $('#card-face').innerHTML=card?displayFace(card,back?'back':'front'):'';
   $('#card-face img')?.addEventListener('error',()=>toast('This image could not be displayed. Check that the complete assets folder is available.'));
   $('#favorite').textContent=card?.favorite?'★':'☆';$('#favorite').setAttribute('aria-pressed',String(!!card?.favorite));$('#favorite').setAttribute('aria-label',card?.favorite?'Unfavorite card':'Favorite card');
   $('#side-label').textContent=back?'BACK':'FRONT';$('#flip span').textContent=back?'Show front':'Reveal back';
   $('#card-title').textContent=card?.title||'Your next perspective is waiting';$('#card-position').textContent=`${pool.length} card${pool.length===1?'':'s'}`;
-  for(const id of ['flip','details-open','enlarge'])$('#'+id).disabled=!card;
+  for(const id of ['flip','details-open','enlarge','share'])$('#'+id).disabled=!card;
   renderExpanded(card);
   $('#shuffle').disabled=drawPending||!pool.length||section==='archive';
   $('#no-repeat').checked=personal.settings.noRepeat;
@@ -185,6 +230,7 @@ document.addEventListener('click',e=>{
   if(e.target.closest('#settings-open,#expanded-settings')){cancelReveal();fitExpandedCard();}
 },true);
 document.addEventListener('click',e=>{
+  if(!e.target.closest('#expanded-more-menu,#expanded-more'))closeMoreMenu();
   const close=e.target.closest('[data-close]');if(close)close.closest('dialog').close();
   const nav=e.target.closest('[data-section]');if(nav){section=nav.dataset.section;deckId='';if(section!=='decks')customMode=false;tag='';selectionChanged();}
   const t=e.target.closest('[data-tag]');if(t){section='tags';deckId='';customMode=false;tag=tag===t.dataset.tag?'':t.dataset.tag;selectionChanged();}
@@ -197,15 +243,26 @@ document.addEventListener('click',e=>{
 on('#shuffle','click',draw);on('#flip','click',flip);
 function enterEnlarged(){if(!current()||$('#expanded-dialog').open)return;cancelReveal();expandedScroll=window.scrollY;document.body.classList.add('enlarged');showDialog('#expanded-dialog');renderExpanded(current());rememberView('enlarged');}
 on('#enlarge','click',enterEnlarged);
+on('#share','click',()=>shareCard(current(),{back,masterCards:master,onToast:toast}));
+on('#expanded-share','click',()=>{closeMoreMenu();return shareCard(current(),{back,masterCards:master,onToast:toast});});
 on('#expanded-flip','click',flip);
 on('#expanded-shuffle','click',draw);
+on('#expanded-more','click',()=>toggleMoreMenu());
+on('#expanded-copy-link','click',()=>{closeMoreMenu();return copyCardLink(current(),{back,masterCards:master,onToast:toast});});
+on('#expanded-share-image','click',()=>{closeMoreMenu();return shareCardAsImage(current(),{back,onToast:toast});});
 async function toggleFavorite(){const c=current();if(c)await patch(c.id,{favorite:!c.favorite},c.favorite?'Removed from favorites.':'Saved to favorites.');}
 on('#favorite','click',toggleFavorite);on('#expanded-favorite','click',toggleFavorite);
 on('#theme-toggle','click',()=>{const theme=document.documentElement.dataset.theme==='dark'?'light':'dark';localStorage.setItem('vortex-theme',theme);applyTheme(theme);});
 window.addEventListener('storage',e=>{if(e.key==='vortex-theme'||e.key===null)applyTheme(localStorage.getItem('vortex-theme'));});
 applyTheme(document.documentElement.dataset.theme);
 on('#kind','change',e=>{kind=e.target.value;selectionChanged();});on('#search','input',e=>{query=e.target.value;selectionChanged();});
-on('#deck-select','change',e=>{if(e.target.value==='__custom'){deckId='';customMode=true;section='decks';tag='';}else{deckId=e.target.value;customMode=false;section=deckId?'decks':'all';tag='';}selectionChanged();});
+function handleDeckSelect(value){
+  if(value==='__custom'){deckId='';customMode=true;section='decks';tag='';}
+  else{deckId=value;customMode=false;section=deckId?'decks':'all';tag='';}
+  selectionChanged();
+}
+on('#deck-select','change',e=>handleDeckSelect(e.target.value));
+on('#expanded-deck-select','change',e=>{closeMoreMenu();handleDeckSelect(e.target.value);});
 on('#custom-toggle','click',()=>{customMode=!customMode;if(customMode){deckId='';section='decks';tag='';}selectionChanged();});
 on('#custom-all','click',()=>setCustom(decks().map(d=>d.id)));
 on('#custom-none','click',()=>setCustom([]));
@@ -284,7 +341,20 @@ on('#restore','click',async()=>{if(!restorePreview)return;const incoming=restore
 channel?.addEventListener('message',async()=>{try{personal=await readPersonal();render();}catch(e){failure(e);}});
 try{
   const response=await fetch(new URL('../data/cards.json',import.meta.url));if(!response.ok)throw Error('The master card library could not be loaded.');
-  const library=await response.json();master=library.cards;masterDecks=library.decks||[{id:'r1',title:'Well Being'}];personal=await openStorage();{const home=all().filter(c=>!c.archived);currentId=(home[Math.floor(Math.random()*home.length)]||master[0])?.id;}render();
+  const library=await response.json();master=library.cards;masterDecks=library.decks||[{id:'r1',title:'Well Being'}];personal=await openStorage();
+  migrateRevealSettings();
+  const shared=parseSharedCardParams(window.location.search);
+  let missingShared=false;
+  if(shared.cardId){
+    const target=all().find(c=>c.id===shared.cardId&&!c.archived);
+    if(target){currentId=target.id;back=shared.back;}
+    else{currentId=master[0]?.id;missingShared=true;}
+  }else{
+    const home=all().filter(c=>!c.archived);
+    currentId=(home[Math.floor(Math.random()*home.length)]||master[0])?.id;
+  }
+  render();
+  if(missingShared)toast('That shared card could not be found in this collection.');
   initDeckScan({onLibrary:async library=>{master=library.cards;masterDecks=library.decks;personal=await readPersonal();if(deckId&&!decks().some(d=>d.id===deckId))deckId='';render();channel?.postMessage('master-updated');}});
   initSettings({getCard:()=>({card:current(),back}),renderFace:displayFace,onError:failure});
   const preference=getRevealSettings().defaultView;
