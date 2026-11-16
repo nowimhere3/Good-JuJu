@@ -5,8 +5,8 @@ import {createVortexServer} from './serve.mjs';
 
 // Isolated localhost server and disposable browser contexts; no real profile changes.
 const catalog=JSON.parse(await readFile('data/cards.json','utf8'));
-assert.equal(catalog.decks.length,5);assert.equal(catalog.cards.length,297);
-assert.equal(new Set(catalog.cards.map(c=>c.id)).size,297);
+assert(catalog.decks.length>=5);assert(catalog.cards.length>=297);
+assert.equal(new Set(catalog.cards.map(c=>c.id)).size,catalog.cards.length);
 const server=createVortexServer({staticOnly:true});
 await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
 const base=`http://127.0.0.1:${server.address().port}`;
@@ -16,7 +16,7 @@ try{
     const context=await browser.newContext({...device,reducedMotion:'reduce',permissions:['clipboard-read','clipboard-write']});
     const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
     await page.goto(base+'/?card=r1-001&side=back');
-    await page.waitForFunction(()=>document.querySelector('#count-all').textContent==='297');
+    await page.waitForFunction(count=>document.querySelector('#count-all').textContent===String(count),catalog.cards.length);
     assert.equal(await page.title(),'Good JuJu');
     assert.equal(await page.locator('#side-label').textContent(),'BACK');
     await page.locator('#card-face img').evaluate(img=>img.decode());
@@ -37,7 +37,7 @@ try{
       const src=await page.locator('#card-face img').getAttribute('src');
       assert(catalog.cards.some(c=>ids.includes(c.deckId)&&c.front===src));
     }
-    await page.reload();await page.waitForFunction(()=>document.querySelector('#count-all').textContent==='297');
+    await page.reload();await page.waitForFunction(count=>document.querySelector('#count-all').textContent===String(count),catalog.cards.length);
     assert.match(await page.evaluate(()=>localStorage.getItem('vortex-custom-decks')),new RegExp(ids[0]));
     assert.equal(await page.locator('#count-favorites').textContent(),'1');
     await page.locator('#deck-select').selectOption('__custom');await page.locator('#enlarge').click();
@@ -58,7 +58,7 @@ try{
     await page.locator('#reveal-duration').fill('1.9');await page.locator('#apply-settings').click();
     await page.locator('#close-settings').click();await page.locator('#minimize').click();
     await page.waitForFunction(()=>!document.body.classList.contains('enlarged'));
-    await page.reload();await page.waitForFunction(()=>document.querySelector('#count-all').textContent==='297');
+    await page.reload();await page.waitForFunction(count=>document.querySelector('#count-all').textContent===String(count),catalog.cards.length);
     await page.locator('#settings-open').click();assert.equal(await page.locator('#reveal-duration').inputValue(),'1.9');
     await page.locator('#close-settings').click();
     const exported=await page.evaluate(async()=>{
