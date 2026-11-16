@@ -1,0 +1,2 @@
+# Preserve source card PDF bytes on every platform (including ASCII-encoded PDFs).
+*.pdf binary
