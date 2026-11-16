@@ -20,11 +20,17 @@ const channel=typeof BroadcastChannel!=='undefined'?new BroadcastChannel('vortex
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const all=()=>mergedCards(master,personal);
 const decks=()=>availableDecks(masterDecks,personal,all());
-const customSelection=()=>{const ids=decks().map(d=>d.id);return customIds===null?ids:ids.filter(id=>customIds.includes(id));};
+const deckGroups=(cards=all())=>{
+  const list=decks();
+  const published=list.filter(d=>d.origin==='master');
+  const personalList=list.filter(d=>d.origin!=='master'&&(d.id!=='personal'||cards.some(c=>c.deckId==='personal')));
+  return {published,personal:personalList,visible:[...published,...personalList]};
+};
+const customSelection=()=>{const ids=deckGroups().visible.map(d=>d.id);return customIds===null?ids:ids.filter(id=>customIds.includes(id));};
 const selected=()=>filterCards(all(),{section,kind,tag,query,deckId,deckIds:customMode&&!deckId?customSelection():null});
 function setCustom(ids){customIds=ids;saveCustom();render();}
 const deckTitle=id=>decks().find(d=>d.id===id)?.title||'All Decks';
-function deckOptions(value){return decks().map(d=>`<option value="${escape(d.id)}"${d.id===value?' selected':''}>${escape(d.title)}</option>`).join('');}
+function deckOptions(value,list=decks()){return list.map(d=>`<option value="${escape(d.id)}"${d.id===value?' selected':''}>${escape(d.title)}</option>`).join('');}
 const current=()=>all().find(c=>c.id===currentId);
 function toast(message){
   for(const el of [$('#toast'),$('#expanded-toast')]){
@@ -83,11 +89,11 @@ function renderExpanded(card){
   if(!$('#expanded-dialog').open)return;
   if(!card){closeMoreMenu();$('#expanded-dialog').close();return;}
   $('#expanded-title').textContent=card.title;
-  const chosen=customSelection(),totalDecks=decks().length;
+  const groups=deckGroups(all()),chosen=customSelection(),totalDecks=groups.visible.length;
   $('#expanded-selection').textContent=section==='favorites'?'Favorites · All Decks':section==='tags'?`Tag: ${tag||'All tags'} · All Decks`:section==='archive'?'Archive · All Decks':deckId?deckTitle(deckId):customMode?`Custom · ${chosen.length}/${totalDecks} decks`:'All Decks';
   const expandedDeck=$('#expanded-deck-select');
   if(expandedDeck){
-    expandedDeck.innerHTML='<option value="">All Decks</option>'+`<option value="__custom">Custom selection (${chosen.length}/${totalDecks})</option>`+deckOptions(deckId);
+    expandedDeck.innerHTML='<option value="">All Decks</option>'+`<option value="__custom">Custom selection (${chosen.length}/${totalDecks})</option>`+deckOptions(deckId,groups.visible);
     expandedDeck.value=customMode&&!deckId?'__custom':deckId;
   }
   $('#expanded-face').innerHTML=displayFace(card,back?'back':'front');
@@ -133,8 +139,8 @@ function render(){
   $('#count-all').textContent=cards.filter(c=>!c.archived).length;
   $('#count-favorites').textContent=cards.filter(c=>!c.archived&&c.favorite).length;
   $('#count-archive').textContent=cards.filter(c=>c.archived).length;
-  const chosen=customSelection(),totalDecks=decks().length;
-  const selectMarkup='<option value="">All Decks</option>'+`<option value="__custom">Custom selection (${chosen.length}/${totalDecks})</option>`+deckOptions(deckId);
+  const groups=deckGroups(cards),chosen=customSelection(),totalDecks=groups.visible.length;
+  const selectMarkup='<option value="">All Decks</option>'+`<option value="__custom">Custom selection (${chosen.length}/${totalDecks})</option>`+deckOptions(deckId,groups.visible);
   const selectValue=customMode&&!deckId?'__custom':deckId;
   $('#deck-select').innerHTML=selectMarkup;
   $('#deck-select').value=selectValue;
@@ -147,7 +153,12 @@ function render(){
   $('#custom-tools').hidden=!customMode;
   $('#decks-panel').classList.toggle('custom-on',customMode);
   $('#decks-panel').hidden=section!=='decks';
-  $('#deck-list').innerHTML=decks().map(d=>`<div class="deck-row"><div class="deck-card">${customMode?`<button type="button" role="checkbox" aria-checked="${chosen.includes(d.id)}" aria-label="Include ${escape(d.title)} in custom selection" class="deck-pill${chosen.includes(d.id)?' on':''}" data-pick="${escape(d.id)}"></button>`:''}<button data-deck="${escape(d.id)}" class="${d.id===deckId?'selected':customMode&&chosen.includes(d.id)?'included':''}"><strong>${escape(d.title)}</strong><small>${cards.filter(c=>c.deckId===d.id&&!c.archived).length} active · ${cards.filter(c=>c.deckId===d.id).length} total · ${d.origin==='master'?'Built-in':d.origin==='unavailable'?'Unavailable source':'Personal'}</small></button></div><button class="text-button" data-rename-deck="${escape(d.id)}" aria-label="Rename ${escape(d.title)}">Rename</button></div>`).join('');
+  const renderDeckRows=list=>list.map(d=>`<div class="deck-row"><div class="deck-card">${customMode?`<button type="button" role="checkbox" aria-checked="${chosen.includes(d.id)}" aria-label="Include ${escape(d.title)} in custom selection" class="deck-pill${chosen.includes(d.id)?' on':''}" data-pick="${escape(d.id)}"></button>`:''}<button data-deck="${escape(d.id)}" class="${d.id===deckId?'selected':customMode&&chosen.includes(d.id)?'included':''}"><strong>${escape(d.title)}</strong><small>${cards.filter(c=>c.deckId===d.id&&!c.archived).length} active · ${cards.filter(c=>c.deckId===d.id).length} total · ${d.origin==='master'?'Built-in':d.origin==='unavailable'?'Unavailable source':'Personal'}</small></button></div><button class="text-button" data-rename-deck="${escape(d.id)}" aria-label="Rename ${escape(d.title)}">Rename</button></div>`).join('');
+  $('#published-decks-count').textContent=String(groups.published.length);
+  $('#published-deck-list').innerHTML=renderDeckRows(groups.published);
+  $('#personal-decks-count').textContent=String(groups.personal.length);
+  $('#personal-deck-list').innerHTML=renderDeckRows(groups.personal);
+  $('#personal-decks-empty').hidden=groups.personal.length>0;
   document.querySelectorAll('[data-section]').forEach(b=>{b.classList.toggle('active',b.dataset.section===section);b.setAttribute('aria-current',b.dataset.section===section?'page':'false');});
   const tags=[...new Set(cards.filter(c=>!c.archived).flatMap(c=>c.tags||[]))].sort((a,b)=>a.localeCompare(b));
   $('#tag-nav').innerHTML=tags.slice(0,12).map(t=>`<button class="${tag===t?'selected':''}" data-tag="${escape(t)}">⌑ ${escape(t)}</button>`).join('');
@@ -264,10 +275,10 @@ function handleDeckSelect(value){
 on('#deck-select','change',e=>handleDeckSelect(e.target.value));
 on('#expanded-deck-select','change',e=>{closeMoreMenu();handleDeckSelect(e.target.value);});
 on('#custom-toggle','click',()=>{customMode=!customMode;if(customMode){deckId='';section='decks';tag='';}selectionChanged();});
-on('#custom-all','click',()=>setCustom(decks().map(d=>d.id)));
+on('#custom-all','click',()=>setCustom(deckGroups().visible.map(d=>d.id)));
 on('#custom-none','click',()=>setCustom([]));
 on('#all-decks','click',reset);
-on('#create-deck-form','submit',async e=>{e.preventDefault();const title=$('#new-deck-name').value.trim();if(!title)throw Error('Enter a deck name.');const id=`user-deck-${crypto.randomUUID()}`;await save(p=>({...p,decks:[...(p.decks||[]),{id,title}]}),'Personal deck created.');$('#new-deck-name').value='';deckId=id;section='decks';tag='';selectionChanged();});
+on('#create-deck-form','submit',async e=>{e.preventDefault();const title=$('#new-deck-name').value.trim();if(!title)throw Error('Enter a deck name.');const id=`user-deck-${crypto.randomUUID()}`;await save(p=>({...p,decks:[...(p.decks||[]),{id,title}]}),'Personal deck created.');$('#new-deck-name').value='';customMode=false;deckId=id;section='decks';tag='';selectionChanged();});
 on('#deck-name-form','submit',async e=>{e.preventDefault();const id=e.target.dataset.id,title=$('#deck-name').value.trim();if(!title)throw Error('Enter a deck name.');await save(p=>({...p,deckNames:{...p.deckNames,[id]:title}}),'Deck display name saved in this browser.');$('#deck-name-dialog').close();});
 on('#reset','click',reset);on('#empty-reset','click',reset);
 on('#no-repeat','change',async e=>{const noRepeat=e.target.checked;bag=[];await save(p=>({...p,settings:{...p.settings,noRepeat}}));});
